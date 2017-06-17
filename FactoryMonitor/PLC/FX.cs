@@ -43,7 +43,7 @@ namespace FactoryMonitor.PLC
 
 
     public enum FxAddressLayoutType : ushort
-    {
+    {1111s
         AddressLayoutBin = 1,
         AddressLayoutByte = 2,
         AddressLayoutInt16 = 3,
