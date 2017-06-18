@@ -1,0 +1,14 @@
+D:\burn\重要1_不常變\SOHO\FactoryMonitor\FactoryMonitor\bin\Debug\FactoryMonitor.exe.config
+D:\burn\重要1_不常變\SOHO\FactoryMonitor\FactoryMonitor\bin\Debug\FactoryMonitor.exe
+D:\burn\重要1_不常變\SOHO\FactoryMonitor\FactoryMonitor\bin\Debug\FactoryMonitor.pdb
+D:\burn\重要1_不常變\SOHO\FactoryMonitor\FactoryMonitor\obj\Debug\FactoryMonitor.Properties.Resources.resources
+D:\burn\重要1_不常變\SOHO\FactoryMonitor\FactoryMonitor\obj\Debug\FactoryMonitor.csproj.GenerateResource.Cache
+D:\burn\重要1_不常變\SOHO\FactoryMonitor\FactoryMonitor\obj\Debug\FactoryMonitor.exe
+D:\burn\重要1_不常變\SOHO\FactoryMonitor\FactoryMonitor\obj\Debug\FactoryMonitor.pdb
+D:\burn\重要1_不常變\SOHO\FactoryMonitor\FactoryMonitor\bin\Debug\FactoryMonitor.XML
+D:\burn\重要1_不常變\SOHO\FactoryMonitor\FactoryMonitor\bin\Debug\MelsecPLC.dll
+D:\burn\重要1_不常變\SOHO\FactoryMonitor\FactoryMonitor\bin\Debug\NLog.dll
+D:\burn\重要1_不常變\SOHO\FactoryMonitor\FactoryMonitor\bin\Debug\MelsecPLC.xml
+D:\burn\重要1_不常變\SOHO\FactoryMonitor\FactoryMonitor\bin\Debug\NLog.xml
+D:\burn\重要1_不常變\SOHO\FactoryMonitor\FactoryMonitor\obj\Debug\FactoryMonitor.GUI.Main.resources
+D:\burn\重要1_不常變\SOHO\FactoryMonitor\FactoryMonitor\obj\Debug\FactoryMonitor.csprojResolveAssemblyReference.cache
