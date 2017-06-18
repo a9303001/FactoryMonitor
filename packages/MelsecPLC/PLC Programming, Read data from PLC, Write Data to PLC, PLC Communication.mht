@@ -1,0 +1,2827 @@
+From: =?big5?B?pdEgSW50ZXJuZXQgRXhwbG9yZXIgMTEgwHimcw==?=
+Subject: PLC Programming, Read data from PLC, Write Data to PLC, PLC Communication
+Date: Sun, 18 Jun 2017 14:12:36 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01D2E83C.EFDCC330"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.23651
+
+這是 MIME 格式的 Multipart 郵件。
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.ucancode.net/PLC-Programming-Read-data-from-PLC-Write-Data-to-PLC-PLC-Communication.htm
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><META content=3D"IE=3D5.0000" =
+http-equiv=3D"X-UA-Compatible">
+<TITLE>PLC Programming, Read data from PLC, Write Data to PLC, PLC=20
+Communication</TITLE>	=20
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Diso-8859-1"> =20
+<META name=3D"keywords" content=3D"PLC Programming, Read data from PLC, =
+Write Data to PLC, PLC Communication">=20
+=20
+<META name=3D"author" content=3D"ucancode software">=20
+<META name=3D"rating" content=3D"General">=20
+<META name=3D"revisit-after" content=3D"1 day">=20
+<META name=3D"classification" content=3D"software">=20
+<META name=3D"description" content=3D"PLC Programming, Read data from =
+PLC, Write Data to PLC, PLC Communication">=20
+=20
+<META name=3D"DC.Creator" content=3D"UCanCode Software"> =20
+<META name=3D"DC.Subject" =
+content=3D"Software;Component;FlowChart;Diagram">=20
+<META name=3D"DC.Description" content=3D"PLC Programming, Read data from =
+PLC, Write Data to PLC, PLC Communication">=20
+=20
+<META name=3D"DC.Title" content=3D"PLC Programming, Read data from PLC, =
+Write Data to PLC, PLC Communication">=20
+=20
+<META name=3D"DC.Publisher" content=3D"ucancode software">=20
+<META name=3D"DC.Type" content=3D"Interactive Resource">=20
+<META name=3D"DC.Format" content=3D"HTML">=20
+<META name=3D"DC.Identifier" content=3D"http://www.ucancode.net">=20
+<META name=3D"DC.Language" content=3D"en">=20
+<META name=3D"DC.Rights" content=3D"ucancode software">=20
+<META name=3D"rating" content=3D"General"> =20
+<META name=3D"revisit-after" content=3D"15 days"> =20
+<META http-equiv=3D"PICS-Label" content=3D'(PICS-1.1 =
+"http://www.classify.org/safesurf/" l gen true for =
+"http://www.ucancode.net" r (SS~000 1 SS~001 1 SS~002 1 SS~003 1 SS~004 =
+1 SS~005 1 SS~007 1 SS~008 1 SS~009 1 SS~00A 1))'>=20
+
+<META name=3D"robots" content=3D"all">  <LINK =
+href=3D"mailto:webmaster@ucancode.net"=20
+rev=3D"made">        =09
+<STYLE>=0A=
+<!--=0A=
+.google-src-text {display: none !important}.HTML_TXT {color:#000000;}-->=0A=
+</STYLE>
+    =20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.18698"></HEAD>=20
+<BODY text=3D"#000000" topmargin=3D"0" leftmargin=3D"0" =
+bgcolor=3D"#ffffff">
+<TABLE width=3D"100%" id=3D"table1" border=3D"0" cellspacing=3D"0">
+  <TBODY>
+  <TR>
+    <TD width=3D"100%">
+      <TABLE width=3D"100%" id=3D"table2" bordercolor=3D"#111111" =
+style=3D"border-collapse: collapse;"=20
+      border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" height=3D"55" bgcolor=3D"#ffffff" =
+rowspan=3D"2"><FONT=20
+            face=3D"Segoe UI"><IMG width=3D"294" height=3D"59" =
+src=3D"http://www.ucancode.net/ucancode24.gif"=20
+            border=3D"0"></FONT></TD>
+          <TD width=3D"18" height=3D"20" bgcolor=3D"#ffffff"><FONT=20
+            face=3D"Segoe UI"><IMG width=3D"18" height=3D"20" =
+src=3D"http://www.ucancode.net/curve.gif"=20
+            border=3D"0"></FONT></TD>
+          <TD width=3D"362" height=3D"20" bgcolor=3D"#000000">
+            <P align=3D"center"><B><FONT color=3D"#ffffff" face=3D"Segoe =
+UI"=20
+            size=3D"1">YOU                                   CAN=20
+            CODE!</FONT></B></P></TD></TR>
+        <TR>
+          <TD width=3D"18" height=3D"35" bgcolor=3D"#ffffff">&nbsp;</TD>
+          <TD width=3D"362" height=3D"35" bgcolor=3D"#ffffff">
+            <P align=3D"right"><FONT face=3D"Segoe UI"><IMG =
+width=3D"400" height=3D"50"=20
+            src=3D"http://www.ucancode.net/title.gif" =
+border=3D"0"></FONT></P></TD></TR>
+        <TR>
+          <TD width=3D"413" height=3D"22" align=3D"left" =
+style=3D"border-width: 1px; border-bottom-style: solid;"=20
+          bgcolor=3D"#ff9900" colspan=3D"2"><B><FONT face=3D"Segoe UI" =
+size=3D"1">With=20
+                                                         The Case Of=20
+            UCanCode.net&nbsp; Release The Power                         =
+       =20
+                         OF&nbsp; Visual C++ !</FONT></B></TD>
+          <TD width=3D"362" height=3D"22" align=3D"right" =
+style=3D"border-width: 1px; border-bottom-style: solid;"=20
+          bgcolor=3D"#ff9900"><B><FONT face=3D"Segoe UI" =
+size=3D"1">&nbsp;          =20
+                                               </FONT>                 =
+</B><FONT=20
+            face=3D"Segoe UI" size=3D"1">                                =
+ <A class=3D"menutop"=20
+            href=3D"http://www.ucancode.net/index.htm"><B><FONT=20
+            color=3D"#000000">Home</FONT></B></A> |&nbsp;                =
+         =20
+                   <B><FONT color=3D"#808080"><A =
+href=3D"http://www.ucancode.net/Products/index.htm"><FONT=20
+            color=3D"#000000">Products</FONT></A></FONT> </B>|           =
+         =20
+                        <A class=3D"menutop" =
+href=3D"http://www.ucancode.net/Order/order.htm"><B><FONT=20
+            color=3D"#000000">Purchase</FONT></B></A>                    =
+         =20
+                            |&nbsp; <B><A =
+href=3D"http://www.ucancode.net/Support/Support%20Programs%20.htm"><FONT =
+
+            color=3D"#000000">Support</FONT></A></B> | <B><A =
+href=3D"http://www.ucancode.net/bbs/zhuce/login.htm"><FONT=20
+            =
+color=3D"#000000">Downloads</FONT></A></B>&nbsp;&nbsp;</FONT></TD></TR></=
+TBODY></TABLE></TD></TR>
+  <TR>
+    <TD width=3D"100%" align=3D"left" valign=3D"top">
+      <TABLE width=3D"100%" id=3D"table3" border=3D"0" cellspacing=3D"0" =
+
+cellpadding=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"165" align=3D"left" valign=3D"top">
+            <TABLE width=3D"100%" id=3D"table4" border=3D"0" =
+cellspacing=3D"0"=20
+            cellpadding=3D"0">
+              <TBODY>
+              <TR>
+                <TD width=3D"100%">
+                  <TABLE width=3D"100%" id=3D"table56" =
+bgcolor=3D"#f1f1f1" border=3D"0"=20
+                  cellspacing=3D"0">
+                    <TBODY>
+                    <TR>
+                      <TD width=3D"100%" height=3D"2" =
+bordercolor=3D"#ffffff" bgcolor=3D"#f1f1f1"><FONT=20
+                        face=3D"Verdana" size=3D"2"><B><FONT =
+face=3D"Segoe UI" size=3D"2"><SPAN=20
+                        style=3D"text-decoration: none;"><FONT=20
+                        color=3D"#ffffff"><IMG width=3D"140" =
+height=3D"150" src=3D"http://www.ucancode.net/new_ucc.gif"=20
+                        =
+border=3D"0"></FONT></SPAN></FONT></B></FONT></TD></TR>
+                    <TR>
+                      <TD width=3D"100%" height=3D"1" =
+bordercolor=3D"#e5e5e5" bgcolor=3D"#800080"><FONT=20
+                        face=3D"Segoe UI"><FONT style=3D"font-size: =
+9pt;"><A style=3D"text-decoration: none;"=20
+                        href=3D"http://www.ucancode.net/index.htm"><FONT =
+color=3D"#ffffff">
+                        																		View in=20
+                        																		English</FONT></A><FONT =
+color=3D"#ffffff">
+                        																		 <BR></FONT>																		 =
+<A=20
+                        style=3D"text-decoration: none;" =
+href=3D"http://translate.googleusercontent.com/translate_c?hl=3Den&amp;ru=
+rl=3Dtranslate.google.com.hk&amp;sl=3Den&amp;tl=3Dja&amp;u=3Dhttp://www.u=
+cancode.net/index.htm&amp;usg=3DALkJrhh_SWWL7nUxQYKRAqXVK69mkgfqiw"><FONT=
+=20
+                        color=3D"#ffffff">																		View in=20
+                        																		Japanese</FONT></A><FONT =
+color=3D"#ffffff">
+                        																		 <BR></FONT>																		 =
+<A=20
+                        style=3D"text-decoration: none;" =
+href=3D"http://translate.googleusercontent.com/translate_c?hl=3Den&amp;ru=
+rl=3Dtranslate.google.com.hk&amp;sl=3Den&amp;tl=3Dko&amp;u=3Dhttp://www.u=
+cancode.net/index.htm&amp;usg=3DALkJrhgDC08mwy9pUaGg8ESxwE2l0psvUw"><FONT=
+=20
+                        color=3D"#ffffff">																		View in
+                        																		 </FONT>																		 =
+</A>
+                        																		 </FONT>																		 =
+<SPAN=20
+                        class=3D"HTML_TXT"><FONT style=3D"font-size: =
+9pt;"><A style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://translate.googleusercontent.com/translate_c?hl=3Den&amp;ru=
+rl=3Dtranslate.google.com.hk&amp;sl=3Den&amp;tl=3Dko&amp;u=3Dhttp://www.u=
+cancode.net/index.htm&amp;usg=3DALkJrhgDC08mwy9pUaGg8ESxwE2l0psvUw"><FONT=
+=20
+                        =
+color=3D"#ffffff">&#52280;&#44256;</FONT></A><FONT=20
+                        color=3D"#ffffff"><BR></FONT>																		 =
+<A style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://translate.googleusercontent.com/translate_c?hl=3Den&amp;ru=
+rl=3Dtranslate.google.com.hk&amp;sl=3Den&amp;tl=3Dfr&amp;u=3Dhttp://www.u=
+cancode.net/index.htm&amp;usg=3DALkJrhhwzsYqXSMc7KEw57cMxpVX6MJhHw"><FONT=
+=20
+                        color=3D"#ffffff">View in=20
+                        																		Fran=E7ais</FONT></A><FONT =
+color=3D"#ffffff"><BR></FONT>
+                        																		 <A style=3D"text-decoration: =
+none;"=20
+                        =
+href=3D"http://translate.googleusercontent.com/translate_c?hl=3Den&amp;ru=
+rl=3Dtranslate.google.com.hk&amp;sl=3Den&amp;tl=3Dit&amp;u=3Dhttp://www.u=
+cancode.net/index.htm&amp;usg=3DALkJrhh4LnbZFDzdfkPLrgZcq57z9i7_eQ"><FONT=
+=20
+                        color=3D"#ffffff">																		View in=20
+                        																		Italiano</FONT></A><FONT =
+color=3D"#ffffff"><BR></FONT>
+                        																		 <A style=3D"text-decoration: =
+none;"=20
+                        =
+href=3D"http://translate.googleusercontent.com/translate_c?hl=3Den&amp;ru=
+rl=3Dtranslate.google.com.hk&amp;sl=3Den&amp;tl=3Dzh-TW&amp;u=3Dhttp://ww=
+w.ucancode.net/index.htm&amp;usg=3DALkJrhjh37rMq5PDKV2RcqFFMkt2Q6Iekg"><F=
+ONT=20
+                        color=3D"#ffffff">																		View in=20
+                        																		 =
+&#20013;&#25991;(&#32321;&#39636;)</FONT></A></FONT></SPAN></FONT></TD></=
+TR>
+                    <TR>
+                      <TD width=3D"100%" height=3D"18" =
+bordercolor=3D"#ffffff"=20
+                      bgcolor=3D"#e5e5e5"><FONT color=3D"#800080"><IMG =
+width=3D"15"=20
+                        height=3D"15" =
+src=3D"http://www.ucancode.net/down_sm.gif"=20
+                        border=3D"0"></FONT><FONT face=3D"Segoe UI" =
+size=3D"2"><A=20
+                        style=3D"text-decoration: none;" =
+href=3D"http://www.ucancode.net/bbs/zhuce/login.htm"><FONT=20
+                        color=3D"#800080">Download=20
+                        																		=
+Evaluation</FONT></A></FONT><FONT=20
+                        face=3D"Verdana" size=3D"2"><FONT=20
+                        color=3D"#800080"><B><BR><IMG width=3D"14" =
+height=3D"12" src=3D"http://www.ucancode.net/p_sm.gif"=20
+                        border=3D"0"></B></FONT><FONT =
+color=3D"#ff0000"><A style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/Order/order.htm"><FONT=20
+                        color=3D"#800080" face=3D"Segoe UI" =
+size=3D"2">Pricing=20
+                        								&amp; =
+Purchase?</FONT></A></FONT></FONT></TD></TR>
+                    <TR>
+                      <TD width=3D"100%" height=3D"18" =
+bordercolor=3D"#ffffff"=20
+                      bgcolor=3D"#ff9900"><FONT color=3D"#ffffff" =
+face=3D"Segoe UI"=20
+                        size=3D"1"><IMG width=3D"17" height=3D"14" =
+id=3D"main_img_exp1"=20
+                        =
+src=3D"http://www.ucancode.net/arrow_show.gif"><IMG width=3D"17"=20
+                        height=3D"14" id=3D"main_img_col1" =
+style=3D"display: none;"=20
+                        onload=3D'style.display=3D"none";' =
+src=3D"http://www.ucancode.net/arrow_hide.gif"></FONT><FONT=20
+                        color=3D"#000000" face=3D"Segoe UI" =
+size=3D"2">E-XD++Visual=20
+                        															C++/ MFC Products       </FONT>   =
+  =20
+                        													 </TD></TR>
+                    <TR>
+                      <TD width=3D"100%" height=3D"18" =
+bordercolor=3D"#ffffff"=20
+                      bgcolor=3D"#ffffff"><FONT color=3D"#000080" =
+face=3D"Segoe UI"=20
+                        size=3D"2"><IMG width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		<A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/Products/Form2/EXDEntprise.htm"><FONT=20
+                        color=3D"#000080">
+                        																		Overview</FONT></A><BR><IMG =
+width=3D"7"=20
+                        height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 <FONT =
+color=3D"#000000"><A=20
+                        title=3D"Features Tour" class=3D"menu" =
+style=3D"text-decoration: none;"=20
+                        onmouseover=3D"window.status=3D'Features =
+Tour';return true"=20
+                        onmouseout=3D"window.status=3D'';return true" =
+href=3D"http://www.ucancode.net/XDFeature/feature.htm"=20
+                        target=3D"_blank"><FONT color=3D"#000080" =
+face=3D"Segoe UI"=20
+                        size=3D"2">      Features Tour</FONT></A><FONT =
+color=3D"#000080"=20
+                        face=3D"Segoe UI" =
+size=3D"2">&nbsp;<BR></FONT></FONT><FONT=20
+                        face=3D"Segoe UI" size=3D"2"><FONT =
+color=3D"#000080">         =20
+                                                                         =
+       =20
+                              <IMG width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 <A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/eform_designer_filler_reader_vc_vb_compon=
+ent.htm"><FONT=20
+                        color=3D"#000080">Electronic Form=20
+                        Solution</FONT></A></FONT><FONT =
+color=3D"#000080" face=3D"Segoe UI"=20
+                        size=3D"2"><BR><IMG width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 <FONT =
+face=3D"Segoe UI"=20
+                        size=3D"-1"><A style=3D"color: rgb(0, 0, 128); =
+text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/Industrial-Control-Design-Simulation-Deve=
+lopment-Graphics-Visualization-VC-Source-Code.htm">
+                        		Visualization &amp; HMI =
+Solution</A></FONT><FONT face=3D"Segoe UI"><FONT=20
+                        color=3D"#000080" size=3D"2"><BR><IMG =
+width=3D"7" height=3D"5"=20
+                        src=3D"http://www.ucancode.net/icon-1.gif" =
+border=3D"0">=20
+                        																		</FONT>		 <A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/ELECTROIC_POWER_VC_DELPHI_SOURCE_CODE.htm=
+"><FONT=20
+                        color=3D"#000080" size=3D"2">Power system HMI=20
+                        Solution</FONT></A><FONT color=3D"#000080"=20
+                        size=3D"2"><BR><IMG width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 <A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/CAD_DRAW_PRINT_COMPONENT.htm"><FONT=20
+                        color=3D"#000080" size=3D"2">		CAD Drawing and =
+Printing=20
+                        Solution</FONT></A></FONT><FONT =
+color=3D"#000080" face=3D"Segoe UI"=20
+                        size=3D"2"><BR></FONT><FONT face=3D"Segoe =
+UI"><FONT color=3D"#000080"=20
+                        size=3D"2">                                      =
+         =20
+                                                 <IMG width=3D"7" =
+height=3D"5" src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 <A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/REPORT_DESIGN_PRINT_DATABASE_SOURCE_CODE.=
+htm"><FONT=20
+                        color=3D"#000080" size=3D"2">Bar code labeling=20
+                        Solution</FONT></A><FONT color=3D"#000080"=20
+                        size=3D"2"><BR><IMG width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> </FONT>		 <A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/PLC-Programming-Read-data-from-PLC-Write-=
+Data-to-PLC-PLC-Communication.htm"><FONT=20
+                        color=3D"#000080" size=3D"2">Workflow=20
+                        Solution</FONT></A></FONT><FONT =
+color=3D"#000080" face=3D"Segoe UI"=20
+                        size=3D"2"><BR></FONT><FONT face=3D"Segoe =
+UI"><FONT color=3D"#000080"=20
+                        size=3D"2">                                      =
+         =20
+                                                 <IMG width=3D"7" =
+height=3D"5" src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 <A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/ERP_MANAGEMENT_COMPONET_VC_SOURCE_CODE.ht=
+m"><FONT=20
+                        color=3D"#000080" size=3D"2">Coal industry HMI=20
+                        Solution</FONT></A><FONT color=3D"#000080"=20
+                        size=3D"2"><BR><IMG width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 <A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/Business-Diagram_vc_source_code.htm"><FON=
+T=20
+                        color=3D"#000080" size=3D"2">Instrumentation =
+Gauge=20
+                        Solution</FONT></A></FONT><FONT =
+color=3D"#000080" face=3D"Segoe UI"=20
+                        size=3D"2"><BR></FONT><FONT face=3D"Segoe =
+UI"><FONT color=3D"#000080"=20
+                        size=3D"2">                                      =
+         =20
+                                                 <IMG width=3D"7" =
+height=3D"5" src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>
+                        																		 <A style=3D"text-decoration: =
+none;"=20
+                        =
+href=3D"http://www.ucancode.net/BUESINESS_CARD_LABEL_DESIGN_VC_SOURCE_COD=
+E.htm"><FONT=20
+                        color=3D"#000080" size=3D"2">Report Printing=20
+                        Solution</FONT></A><FONT color=3D"#000080"=20
+                        size=3D"2"><BR><IMG width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 <FONT=20
+                        size=3D"2"><A style=3D"text-decoration: none;" =
+href=3D"http://www.ucancode.net/Software-Diagram_ocx_java_tool.htm"><FONT=
+=20
+                        color=3D"#000080">Graphical modeling=20
+                        Solution</FONT></A><FONT =
+color=3D"#000080"><BR><IMG width=3D"7"=20
+                        height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 =
+</FONT><A style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/GIS_VC_DELPHI_SOURCE_CODE_ArcIMS.htm">
+                        		 <FONT color=3D"#000080" size=3D"2">GIS =
+mapping=20
+                        solution</FONT></A></FONT><FONT =
+color=3D"#000080" face=3D"Segoe UI"=20
+                        size=3D"2"><BR></FONT><FONT face=3D"Segoe =
+UI"><FONT color=3D"#000080"=20
+                        size=3D"2">                                      =
+         =20
+                                                 <IMG width=3D"7" =
+height=3D"5" src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>
+                        																		 <A style=3D"text-decoration: =
+none;"=20
+                        =
+href=3D"http://www.ucancode.net/Visio_FLOWCHART_VC_SOURCE_CODE.htm"><FONT=
+=20
+                        color=3D"#000080" size=3D"2">Visio graphics=20
+                        solution</FONT></A><FONT color=3D"#000080"=20
+                        size=3D"2"><BR><IMG width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 <A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/CONTROL_GAUGE_VC_SOURCE_CODE.htm"><FONT=20
+                        color=3D"#000080" size=3D"2">Industrial control =
+SCADA=20
+                        &amp;HMI 																		=
+Solution</FONT></A><FONT=20
+                        color=3D"#000080" size=3D"2"><BR><IMG =
+width=3D"7" height=3D"5"=20
+                        src=3D"http://www.ucancode.net/icon-1.gif" =
+border=3D"0">=20
+                        																		</FONT>		 <A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/BPM_WORKFLOW_SOA_VC_DOTNET_SOURCE_CODE.ht=
+m"><FONT=20
+                        color=3D"#000080" size=3D"2">BPM business =
+process=20
+                        Solution</FONT></A></FONT><FONT =
+color=3D"#000080" face=3D"Segoe UI"=20
+                        size=3D"2"><BR></FONT><FONT face=3D"Segoe UI" =
+size=3D"2"><FONT=20
+                        color=3D"#000080">                               =
+         =20
+                                                        <IMG width=3D"7" =
+height=3D"5"=20
+                        src=3D"http://www.ucancode.net/icon-1.gif" =
+border=3D"0">
+                        		 </FONT><A style=3D"text-decoration: none;" =
+href=3D"http://www.ucancode.net/DESIGN_SCADA_OCX_VC_SOURCE_CODE.htm">
+                        		 <FONT color=3D"#000080">Industrial monitoring =
+
+                        Solution</FONT></A></FONT><FONT =
+color=3D"#000080" face=3D"Segoe UI"=20
+                        size=3D"2"><BR></FONT><FONT face=3D"Segoe =
+UI"><FONT color=3D"#000080"=20
+                        size=3D"2">                                      =
+         =20
+                                                 <IMG width=3D"7" =
+height=3D"5" src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 <A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/FLOWCHART_SOFTWARE_DESIGN_DOTNET_SOURCE_C=
+ODE.htm"><FONT=20
+                        color=3D"#000080" size=3D"2">Flowchart and =
+diagramming=20
+                        Solution</FONT></A><FONT color=3D"#000080"=20
+                        size=3D"2"><BR><IMG width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 <A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/org_chart_VC_network_diagram_source_code.=
+htm"><FONT=20
+                        color=3D"#000080" size=3D"2">Organization =
+Diagram=20
+                        Solution</FONT></A></FONT><FONT =
+color=3D"#000080" face=3D"Segoe UI"=20
+                        size=3D"2"><BR></FONT><FONT face=3D"Segoe =
+UI"><FONT color=3D"#000080"=20
+                        size=3D"2">                                      =
+         =20
+                                                 <IMG width=3D"7" =
+height=3D"5" src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 <A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/vc_vb_draw_print_software_source_code.htm=
+"><FONT=20
+                        color=3D"#000080" size=3D"2">Graphic =
+editor</FONT></A><FONT=20
+                        color=3D"#000000"><A style=3D"text-decoration: =
+none;" =
+href=3D"http://www.ucancode.net/vc_vb_draw_print_software_source_code.htm=
+"><FONT=20
+                        color=3D"#000080" size=3D"2"> 		Source=20
+                        Code</FONT></A></FONT><FONT color=3D"#000080"=20
+                        size=3D"2"><BR><IMG width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 <A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/UML_DIAGRAM_DRAW_PRINT_GENERATE_SOURCE_CO=
+DE.htm"><FONT=20
+                        color=3D"#000080" size=3D"2">UML drawing editor =
+Source=20
+                        Code</FONT></A><FONT color=3D"#000080" =
+size=3D"2"><BR><IMG=20
+                        width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 <A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/MAP_DESIGN_VC_JAVA_SOURCE_CODE.htm"><FONT=
+=20
+                        color=3D"#000080" size=3D"2">Map Diagramming=20
+                        Solution</FONT></A></FONT><FONT =
+color=3D"#000080" face=3D"Segoe UI"=20
+                        size=3D"2"><BR></FONT><FONT face=3D"Segoe UI" =
+size=3D"2"><FONT=20
+                        color=3D"#000080">                               =
+         =20
+                                                        <IMG width=3D"7" =
+height=3D"5"=20
+                        src=3D"http://www.ucancode.net/icon-1.gif" =
+border=3D"0">=20
+                        																		</FONT>		 <A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/HOUSE_DESIGN_VC_SOFTWARE_TOOL.htm"><FONT =
+
+                        color=3D"#000080">		Architectural Graphic =
+Drawing=20
+                        Solution</FONT></A></FONT><FONT =
+color=3D"#000080" face=3D"Segoe UI"=20
+                        size=3D"2"><BR><IMG width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		<A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/bbs/zhuce/login.htm"><FONT=20
+                        color=3D"#800080">																		Request=20
+                        																		Evaluation</FONT></A><BR><IMG =
+width=3D"7"=20
+                        height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>		 <FONT =
+color=3D"#000000"><A=20
+                        title=3D"Purchase" class=3D"menu" =
+style=3D"text-decoration: none;"=20
+                        onmouseover=3D"window.status=3D'Purchase';return =
+true"=20
+                        onmouseout=3D"window.status=3D'';return true" =
+href=3D"http://www.ucancode.net/Products/Form2/Buy.htm"><FONT=20
+                        color=3D"#800080" face=3D"Segoe UI"=20
+                        size=3D"2">Purchase</FONT></A></FONT></TD></TR>
+                    <TR>
+                      <TD width=3D"100%" height=3D"16" =
+bgcolor=3D"#ff9900"><FONT=20
+                        color=3D"#ffffff" face=3D"Segoe UI" =
+size=3D"1"><IMG width=3D"17"=20
+                        height=3D"14" id=3D"main_img_exp0" =
+src=3D"http://www.ucancode.net/arrow_show.gif"><IMG=20
+                        width=3D"17" height=3D"14" id=3D"main_img_col0" =
+style=3D"display: none;"=20
+                        onload=3D'style.display=3D"none";' =
+src=3D"http://www.ucancode.net/arrow_hide.gif"></FONT><FONT=20
+                        color=3D"#000000" face=3D"Segoe UI" =
+size=3D"2">ActiveX COM=20
+                        Products       </FONT>      													 =
+</TD></TR>
+                    <TR>
+                      <TD width=3D"100%" height=3D"16" =
+bgcolor=3D"#ffffff"><FONT=20
+                        color=3D"#000080" face=3D"Segoe UI" =
+size=3D"2"><IMG width=3D"7"=20
+                        height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		<A =
+style=3D"text-decoration: none;"=20
+                        =
+href=3D"http://www.ucancode.net/Products/Form2/uccdraw.htm"><FONT=20
+                        color=3D"#000080">
+                        																		Overview</FONT></A><BR><IMG =
+width=3D"7"=20
+                        height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>
+                        																		 <A title=3D"Download Area" =
+class=3D"menu"=20
+                        style=3D"text-decoration: none;" =
+onmouseover=3D"window.status=3D'Download Area';return true"=20
+                        onmouseout=3D"window.status=3D'';return true" =
+href=3D"http://www.ucancode.net/bbs/zhuce/login.htm"><FONT=20
+                        color=3D"#000080" face=3D"Segoe UI" size=3D"2">
+                        																		Download<BR></FONT>       =
+</A><FONT=20
+                        color=3D"#000080" face=3D"Segoe UI" size=3D"2">  =
+             =20
+                                                                         =
+       =20
+                        <IMG width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>
+                        																		 <FONT color=3D"#000000"><A =
+title=3D"Purchase"=20
+                        class=3D"menu" style=3D"text-decoration: none;" =
+onmouseover=3D"window.status=3D'Purchase';return true"=20
+                        onmouseout=3D"window.status=3D'';return true" =
+href=3D"http://www.ucancode.net/Products/Form2/Buy.htm"><FONT=20
+                        color=3D"#000080" face=3D"Segoe UI" =
+size=3D"2">Purchase      =20
+                        </FONT></A></FONT>      													 </TD></TR>
+                    <TR>
+                      <TD width=3D"100%" height=3D"18" =
+bgcolor=3D"#ff9900"><FONT=20
+                        face=3D"Segoe UI" size=3D"1"><IMG width=3D"17" =
+height=3D"14" id=3D"tech_img_exp"=20
+                        =
+src=3D"http://www.ucancode.net/arrow_show.gif"><FONT=20
+                        color=3D"#ffffff"><IMG width=3D"17" =
+height=3D"14" id=3D"tech_img_col"=20
+                        style=3D"display: none;" =
+onload=3D'style.display=3D"none";'=20
+                        =
+src=3D"http://www.ucancode.net/arrow_hide.gif"></FONT></FONT><FONT=20
+                        color=3D"#000000" face=3D"Segoe UI" =
+size=3D"2">Technical=20
+                        		Support</FONT></TD></TR>
+                    <TR>
+                      <TD width=3D"100%" height=3D"18" =
+bgcolor=3D"#ffffff"><FONT=20
+                        color=3D"#000000" face=3D"Segoe UI"=20
+                        size=3D"2">&nbsp;</FONT><FONT color=3D"#000080" =
+face=3D"Segoe UI"=20
+                        size=3D"2"><IMG width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>
+                        																		 <FONT color=3D"#000000"><A =
+title=3D"General Q &amp; A"=20
+                        class=3D"menu" style=3D"text-decoration: none;" =
+onmouseover=3D"window.status=3D'General Q &amp; A';return true"=20
+                        onmouseout=3D"window.status=3D'';return true" =
+href=3D"http://www.ucancode.net/Support/Knowledge%20Base%20.htm"><FONT=20
+                        color=3D"#000080" face=3D"Segoe UI" =
+size=3D"2">General Q &amp;=20
+                        A       </FONT>       </A>       </FONT>     =20
+                        																	 <FONT color=3D"#000080" =
+face=3D"Segoe UI"=20
+                        size=3D"2"><BR><IMG width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>     =20
+                        																	 <FONT color=3D"#000000"><A =
+title=3D"Discussion Board"=20
+                        class=3D"menu" style=3D"text-decoration: none;" =
+onmouseover=3D"window.status=3D'Discussion Board';return true"=20
+                        onmouseout=3D"window.status=3D'';return true" =
+href=3D"http://www.uccsoft.com/e_forum/index.php"><FONT=20
+                        color=3D"#000080" face=3D"Segoe UI" =
+size=3D"2">Discussion=20
+                        Board       </FONT>       </A>       <FONT =
+color=3D"#000080"=20
+                        face=3D"Segoe UI" size=3D"2"><BR></FONT>       =
+</FONT><FONT=20
+                        color=3D"#000080" face=3D"Segoe UI" size=3D"2">  =
+             =20
+                                                                         =
+       =20
+                        <IMG width=3D"7" height=3D"5" =
+src=3D"http://www.ucancode.net/icon-1.gif"=20
+                        border=3D"0"> 																		</FONT>
+                        																		 <FONT color=3D"#000000"><A =
+title=3D"Contact Us"=20
+                        class=3D"menu" style=3D"text-decoration: none;" =
+onmouseover=3D"window.status=3D'Contact Us';return true"=20
+                        onmouseout=3D"window.status=3D'';return true" =
+href=3D"http://www.ucancode.net/Contact/contact.htm"><FONT=20
+                        color=3D"#000080" face=3D"Segoe UI" =
+size=3D"2">Contact Us     =20
+                         </FONT>       </A>       </FONT>           =20
+                        																	</TD></TR>
+                    <TR>
+                      <TD width=3D"100%" height=3D"169" =
+bgcolor=3D"#f1f1f1">
+                        <P align=3D"center"><I><FONT color=3D"#000000" =
+face=3D"Segoe UI"=20
+                        size=3D"2"><A style=3D"text-decoration: none;" =
+href=3D"http://www.ucancode.net/lINKS/lINKS.htm"><FONT=20
+                        =
+color=3D"#000000">Links</FONT></A></FONT></I><FONT face=3D"Segoe =
+UI"><BR><A=20
+                        href=3D"http://www.ucancode.net/"><IMG =
+width=3D"140" height=3D"77"=20
+                        =
+src=3D"http://www.ucancode.net/ucancodenet-badge.gif"=20
+                        border=3D"0"></A></FONT></P>
+                        <H1 align=3D"center"><SPAN style=3D"font-weight: =
+400;"><FONT=20
+                        color=3D"#000080" face=3D"Segoe UI" =
+size=3D"1">Get            =20
+                                                                         =
+       =20
+                          Ready to Unleash the                           =
+       =20
+                                                             Power of =
+UCanCode  =20
+                                                                         =
+       =20
+                                    .NET</FONT></SPAN></H1></TD></TR>
+                    <TR><!--begin search form--><!--end search form-->
+                      													 =
+</TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+          <TD width=3D"100%" align=3D"left" valign=3D"top">
+            <TABLE width=3D"100%" id=3D"table7" border=3D"0" =
+cellspacing=3D"0"=20
+            cellpadding=3D"8">
+              <TBODY>
+              <TR>
+                <TD><FONT face=3D"Segoe UI"><!--begin body text-->     =20
+                  					 </FONT>      =20
+                  <DIV align=3D"center">
+                  <CENTER>
+                  <TABLE width=3D"100%" id=3D"table8" border=3D"0" =
+cellpadding=3D"3">
+                    <TBODY>
+                    <TR>
+                      <TD valign=3D"TOP"><FONT face=3D"Segoe UI" =
+size=3D"2">
+                        <TABLE width=3D"100%" height=3D"1" =
+id=3D"table50" border=3D"0"=20
+                        cellspacing=3D"0" cellpadding=3D"0">
+                          <TBODY>
+                          <TR>
+                            <TD width=3D"100%" height=3D"20" =
+align=3D"left" valign=3D"top">
+                              <H1 id=3D"ctl00_ArticleTitle" =
+style=3D'margin: 0px 0px 7px; padding: 0px; text-align: left; color: =
+rgb(255, 0, 0); text-transform: none; line-height: normal; text-indent: =
+0px; letter-spacing: normal; font-family: "Segoe UI", Arial, sans-serif; =
+font-size: 29px; font-style: normal; font-variant: normal; word-spacing: =
+0px; white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'=20
+                              itemprop=3D"name">			PLC Programming, Read =
+data from=20
+                              PLC, Write Data to PLC, PLC 			=
+Communication=20
+                              Source Code</H1></TD></TR>
+                          <TR>
+                            <TD width=3D"100%" height=3D"1">
+                              <P style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'><FONT=20
+                              face=3D"Segoe UI" size=3D"3"><BR>			=
+Author: Syed=20
+                              Shanu<BR>
+                              =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;=20
+                              			India<B><BR><BR></B></FONT>In this =
+article I=20
+                              will explain how to communicate with<SPAN =
+class=3D"Apple-converted-space">&nbsp;</SPAN><FONT=20
+                              color=3D"#ff0000"><STRONG style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: =
+none;">PLC</STRONG></FONT><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>(<STRONG=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none;">Programmable=20
+                              			Logic Controller</STRONG>). I started =
+my <FONT=20
+                              color=3D"#ff0000">PLC</FONT>			 <FONT =
+color=3D"#ff0000"><B>communication</B></FONT>=20
+                              program using			 <FONT =
+color=3D"#ff0000"><B>.NET=20
+                              </B></FONT>from 2007.</P>
+                              <P style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			&nbsp;For basic understanding of what =
+is <FONT=20
+                              color=3D"#ff0000"><B>PLC</B></FONT> 			use =
+Google,=20
+                              because basically&nbsp;iam not a <FONT =
+color=3D"#ff0000"><B>PLC</B></FONT>=20
+                              			Engineer or Electrical Engineer, but I =
+will=20
+                              explain to you about how 			to connect =
+<FONT=20
+                              color=3D"#ff0000"><B>PLC</B></FONT> using =
+.NET=20
+                              			programs, how to <FONT =
+color=3D"#ff0000"><B>read=20
+                              data from PLC</B></FONT>, 			and how to =
+<FONT=20
+                              color=3D"#ff0000"><B>write data to =
+PLC</B></FONT>.=20
+                              My 			sample programs are all based on =
+MELSEC=20
+                              <FONT color=3D"#ff0000"><B>PLC</B></FONT> 	=
+		using=20
+                              <FONT =
+color=3D"#ff0000"><B>TCP/IP</B></FONT>=20
+                              Communication.</P>
+                              <P style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			There are different Kind of <FONT =
+color=3D"#ff0000"><B>PLC</B></FONT>=20
+                              			available like MELSEC ,SIMENS and =
+etc,For each=20
+                              <FONT color=3D"#ff0000"><B>PLC=20
+                              Communication</B></FONT> there are =
+different type=20
+                              of 			protocols available. Today in this =
+demo=20
+                              program I have used TCP IP 			=
+Communication for=20
+                              MELSEC <FONT=20
+color=3D"#ff0000"><B>PLC</B></FONT>.</P>
+                              <P style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			Here&nbsp;I have mentioned .NET =
+programs=20
+                              instead of a language&nbsp;in 			=
+.NET.&nbsp;This=20
+                              has meaning because today in my article =
+you will=20
+                              find 4 			Zip files:</P>
+                              <OL style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; margin: 10px 0px; padding: 0px 0px 0px 40px; border: =
+0px currentColor; border-image: none; color: rgb(17, 17, 17); =
+text-transform: none; text-indent: 0px; letter-spacing: normal; =
+word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, =
+255); -webkit-text-stroke-width: 0px;'>
+                                <LI style=3D'margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: rgb(17, 17, 17); =
+line-height: normal; font-family: "Segoe UI", Arial, sans-serif; =
+font-size: 14px;'>
+                                				ShanuMelsecPLCComponent.ZIP contains =
+the=20
+                                <FONT =
+color=3D"#ff0000"><B>PLC</B></FONT>=20
+                                component DLL source code. I =
+started<FONT color=3D"#ff0000"><B>=20
+                                				PLC communication</B></FONT> <FONT =
+color=3D"#ff0000"><B>
+                                				programming</B></FONT> in 2007. At =
+that time=20
+                                I was coding using 				VB.NET. I created =
+my own=20
+                                Winsock component using VB.NET. Even 				=
+now for=20
+                                <FONT color=3D"#ff0000"><B>PLC=20
+                                communication</B></FONT> I 				am using =
+the same=20
+                                Winsock component MelsecPLC.dll in my =
+projects=20
+                                				for <FONT color=3D"#ff0000"><B>PLC=20
+                                communication</B></FONT>. In 				that =
+component=20
+                                I have created simple functions as<SPAN =
+class=3D"Apple-converted-space">&nbsp;</SPAN><CODE=20
+                                style=3D'font: 11pt/normal Consolas, =
+"Courier New", Courier, mono; margin: 0px; padding: 0px; border: 0px =
+currentColor; border-image: none; color: rgb(153, 0, =
+0);'>Connect</CODE>,<CODE=20
+                                style=3D'font: 11pt/normal Consolas, =
+"Courier New", Courier, mono; margin: 0px; padding: 0px; border: 0px =
+currentColor; border-image: none; color: rgb(153, 0, =
+0);'>Disconnect</CODE>,<SPAN=20
+                                =
+class=3D"Apple-converted-space">&nbsp;</SPAN><CODE=20
+                                style=3D'font: 11pt/normal Consolas, =
+"Courier New", Courier, mono; margin: 0px; padding: 0px; border: 0px =
+currentColor; border-image: none; color: rgb(153, 0, =
+0);'>Read</CODE>,<SPAN=20
+                                =
+class=3D"Apple-converted-space">&nbsp;</SPAN><CODE=20
+                                style=3D'font: 11pt/normal Consolas, =
+"Courier New", Courier, mono; margin: 0px; padding: 0px; border: 0px =
+currentColor; border-image: none; color: rgb(153, 0, 0);'>Write</CODE>,=20
+                                				and a<SPAN=20
+                                =
+class=3D"Apple-converted-space">&nbsp;</SPAN><CODE=20
+                                style=3D'font: 11pt/normal Consolas, =
+"Courier New", Courier, mono; margin: 0px; padding: 0px; border: 0px =
+currentColor; border-image: none; color: rgb(153, 0, =
+0);'>DataArrival</CODE><SPAN=20
+                                =
+class=3D"Apple-converted-space">&nbsp;</SPAN>event.=20
+                                				In my sample project I have attached =
+I have=20
+                                used the same DLL.</LI>
+                                <LI style=3D'margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: rgb(17, 17, 17); =
+line-height: normal; font-family: "Segoe UI", Arial, sans-serif; =
+font-size: 14px;'>
+                                				ShanuPLCC#.NetSample.ZIP contains a =
+C#=20
+                                sample program that 				demonstrates how =
+to=20
+                                connect, <FONT=20
+                                color=3D"#ff0000"><B>read</B></FONT>, 			=
+	and=20
+                                <FONT =
+color=3D"#ff0000"><B>write</B></FONT>
+                                				 <FONT color=3D"#ff0000"><B>to =
+PLC</B></FONT>=20
+                                using<SPAN=20
+                                =
+class=3D"Apple-converted-space">&nbsp;</SPAN><EM=20
+                                style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none;">MelsecPLC.dll</EM>.</LI>
+                                <LI style=3D'margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: rgb(17, 17, 17); =
+line-height: normal; font-family: "Segoe UI", Arial, sans-serif; =
+font-size: 14px;'>
+                                				ShanuPLCVB.NetSample.ZIP contains a =
+VB.NET=20
+                                sample program that 				demonstrates how =
+
+                                to&nbsp; connect, <FONT=20
+                                color=3D"#ff0000"><B>read</B></FONT>, 			=
+	and=20
+                                <FONT color=3D"#ff0000"><B>write to =
+PLC</B></FONT>=20
+                                using<SPAN=20
+                                =
+class=3D"Apple-converted-space">&nbsp;</SPAN><EM=20
+                                style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none;">MelsecPLC.dll</EM>.</LI>
+                                <LI style=3D'margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: rgb(17, 17, 17); =
+line-height: normal; font-family: "Segoe UI", Arial, sans-serif; =
+font-size: 14px;'>
+                                				ShanuPLCWPF.Net.ZIP contains a WPF =
+sample=20
+                                program that 				demonstrates how to =
+connect,=20
+                                <FONT =
+color=3D"#ff0000"><B>read</B></FONT>,=20
+                                				and <FONT=20
+                                color=3D"#ff0000"><B>write</B></FONT> to	=
+			 <FONT=20
+                                color=3D"#ff0000"><B>PLC</B></FONT> =
+using<SPAN=20
+                                =
+class=3D"Apple-converted-space">&nbsp;</SPAN><EM=20
+                                style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: =
+none;">MelsecPLC.dll</EM>.</LI></OL>
+                              <P style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			Before we are start <FONT=20
+                              color=3D"#ff0000"><B>PLC communication=20
+                              			programming</B></FONT>, I like to =
+explain to=20
+                              you the read and write 			processes in =
+<FONT=20
+                              color=3D"#ff0000"><B>PLC=20
+                              communication</B></FONT>.</P>
+                              <H2 style=3D'margin: 20px 0px 11px; =
+padding: 0px 0px 10px; color: rgb(255, 0, 0); text-transform: none; =
+line-height: normal; text-indent: 0px; letter-spacing: normal; =
+font-family: "Segoe UI", Arial, sans-serif; font-size: 30px; font-style: =
+normal; font-variant: normal; word-spacing: 0px; white-space: normal; =
+background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;'>
+                              			Read Data from PLC</H2>
+                              <P style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'><FONT=20
+                              color=3D"#ff0000"><B>PLC Read</B></FONT> =
+Command: To
+                              			 <FONT color=3D"#ff0000"><B>read data =
+from=20
+                              PLC</B></FONT> we need to 			send the =
+command to=20
+                              <FONT color=3D"#ff0000"><B>PLC</B></FONT>, =
+
+                              			basically the command we send will be =
+like=20
+                              this:=20
+                              			=
+"500000FF03FF000018000A04010000D*0095000001";</P>
+                              <DIV class=3D"pre-action-link" =
+id=3D"premain0" style=3D'border-width: 0px 0px 1px; font: 11px/normal =
+"Segoe UI", Arial, sans-serif; margin: 0px; padding: 0px; text-align: =
+right; color: rgb(0, 87, 130); text-transform: none; text-indent: 0px; =
+letter-spacing: normal; word-spacing: 0px; border-bottom-color: rgb(204, =
+204, 204); border-bottom-style: solid; display: block; white-space: =
+normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: =
+0px;'=20
+                              width=3D"100%"><IMG width=3D"9" =
+height=3D"9" id=3D"preimg0"=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; height: auto; overflow: =
+auto; cursor: pointer; max-width: 100%;"=20
+                              =
+src=3D"http://www.ucancode.net/images/minus.gif"=20
+                              preid=3D"0"><SPAN id=3D"precollapse0" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; cursor: pointer;"=20
+                              preid=3D"0"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>Collapse</SPAN><SPAN=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none;"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>|<SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN></SPAN><A=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: purple; =
+text-decoration: none;"=20
+                              =
+href=3D"http://www.ucancode.net/Articles/616262/PLC-Communication-Using-N=
+ET#"=20
+                              preid=3D"0">Copy 				Code</A></DIV>
+<PRE id=3D"pre0" lang=3D"cs" style=3D'font: 9pt/normal Consolas, =
+"Courier New", Courier, mono; padding: 6px; border: 1px solid rgb(255, =
+210, 252); border-image: none; color: black; text-transform: none; =
+text-indent: 0px; letter-spacing: normal; overflow: auto; margin-top: =
+0px; word-spacing: 0px; white-space: pre-wrap; -ms-word-wrap: =
+break-word; background-color: rgb(255, 210, 252); =
+-webkit-text-stroke-width: 0px;'><SPAN class=3D"code-SDKkeyword" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: rgb(51, 153, 153);">String</SPAN>   cmd =3D =
+<SPAN class=3D"code-string" style=3D"margin: 0px; padding: 0px; border: =
+0px currentColor; border-image: none; color: purple;">""</SPAN>;=0A=
+cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; padding: =
+0px; border: 0px currentColor; border-image: none; color: =
+purple;">"5000"</SPAN> ;  <SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">// sub HEAD (NOT)=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"00"</SPAN>  ;  <SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//   network number (NOT)=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"FF"</SPAN>  ;  <SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//PLC NUMBER=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"03FF"</SPAN> ; <SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">// DEMAND OBJECT MUDULE I/O NUMBER=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"00"</SPAN> ;  <SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  DEMAND OBJECT MUDULE DEVICE =
+NUMBER=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"001C"</SPAN>  ;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  Length of demand data=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"000A"</SPAN>; <SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  CPU inspector data=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"0401"</SPAN>; <SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  Read command (to read the data =
+from PLC we should =930401=94=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"0000"</SPAN> ;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  Sub command=0A=
+</SPAN>cmd =3D cmd +<SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"D*"</SPAN>  ;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//   device code=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"009500"</SPAN>; <SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//adBase =0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"0001"</SPAN>;=0A=
+<SPAN class=3D"code-comment" style=3D"margin: 0px; padding: 0px; border: =
+0px currentColor; border-image: none; color: rgb(0, 128, 0); font-style: =
+italic;">//Device No ,It=92s a Address every PLC device will have an =
+address=0A=
+//we need to send the appropriate address to read the data.</SPAN></PRE>
+                              <H4 style=3D'font: bold 16px/normal "Segoe =
+UI", Arial, sans-serif; color: rgb(255, 0, 0); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			Write data to PLC</H4>
+                              <P style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'><FONT=20
+                              color=3D"#ff0000"><B>PLC</B></FONT> Write =
+Command:=20
+                              To write data 			to <FONT=20
+                              color=3D"#ff0000"><B>PLC</B></FONT> we =
+need to send=20
+                              the 			command to <FONT=20
+                              color=3D"#ff0000"><B>PLC</B></FONT>, =
+basically the=20
+                              			command we send will be like this:=20
+                              			=
+"500000FF03FF00001C000A14010000D*0095010002".</P>
+                              <DIV class=3D"pre-action-link" =
+id=3D"premain1" style=3D'border-width: 0px 0px 1px; font: 11px/normal =
+"Segoe UI", Arial, sans-serif; margin: 0px; padding: 0px; text-align: =
+right; color: rgb(0, 87, 130); text-transform: none; text-indent: 0px; =
+letter-spacing: normal; word-spacing: 0px; border-bottom-color: rgb(204, =
+204, 204); border-bottom-style: solid; display: block; white-space: =
+normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: =
+0px;'=20
+                              width=3D"100%"><IMG width=3D"9" =
+height=3D"9" id=3D"preimg1"=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; height: auto; overflow: =
+auto; cursor: pointer; max-width: 100%;"=20
+                              =
+src=3D"http://www.ucancode.net/images/minus.gif"=20
+                              preid=3D"1"><SPAN id=3D"precollapse1" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; cursor: pointer;"=20
+                              preid=3D"1"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>Collapse</SPAN><SPAN=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none;"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>|<SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN></SPAN><A=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: purple; =
+text-decoration: none;"=20
+                              =
+href=3D"http://www.ucancode.net/Articles/616262/PLC-Communication-Using-N=
+ET#"=20
+                              preid=3D"1">Copy 				Code</A></DIV>
+<PRE id=3D"pre1" lang=3D"cs" style=3D'font: 9pt/normal Consolas, =
+"Courier New", Courier, mono; padding: 6px; border: 1px solid rgb(255, =
+210, 252); border-image: none; color: black; text-transform: none; =
+text-indent: 0px; letter-spacing: normal; overflow: auto; margin-top: =
+0px; word-spacing: 0px; white-space: pre-wrap; -ms-word-wrap: =
+break-word; background-color: rgb(255, 210, 252); =
+-webkit-text-stroke-width: 0px;'><SPAN class=3D"code-SDKkeyword" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: rgb(51, 153, 153);">String</SPAN>   cmd =3D =
+<SPAN class=3D"code-string" style=3D"margin: 0px; padding: 0px; border: =
+0px currentColor; border-image: none; color: purple;">""</SPAN>; =0A=
+=0A=
+cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; padding: =
+0px; border: 0px currentColor; border-image: none; color: =
+purple;">"5000"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">// sub HEAD (NOT)=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"00"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//   network number (NOT)=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"FF"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//PLC NUMBER=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"03FF"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">// DEMAND OBJECT MUDULE I/O NUMBER=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"00"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  DEMAND OBJECT MUDULE DEVICE =
+NUMBER=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"001C"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  Length of demand data=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"000A"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  CPU inspector data=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"1401"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  Write command=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"0000"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  Sub command=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"D*"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//   device code=0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"009501"</SPAN>; <SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//adBase =0A=
+</SPAN>cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"0002"</SPAN>;  <SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//BASE ADDRESS</SPAN></PRE>
+                              <P style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			You can see the difference, to <FONT =
+color=3D"#ff0000"><B>read</B></FONT>=20
+                              			we use "0401" and "009500" but for =
+write we use=20
+                              "1401" and "009501". 			The detailed code =
+will be=20
+                              listed below.</P>
+                              <H2 style=3D'font: 200 30px/normal "Segoe =
+UI", Arial, sans-serif; margin: 20px 0px 11px; padding: 0px 0px 10px; =
+color: rgb(255, 153, 0); text-transform: none; text-indent: 0px; =
+letter-spacing: normal; word-spacing: 0px; white-space: normal; =
+background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;'>
+                              			2</H2>
+                              <P style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			I have attached VB.NET, C#.NET, and WPF =
+sample=20
+                              programs for			 <FONT =
+color=3D"#ff0000"><B>PLC=20
+                              communication</B></FONT> in this 			=
+article but=20
+                              for explanation here I have used C# code. =
+Here I=20
+                              have 			used my component<SPAN =
+class=3D"Apple-converted-space">&nbsp;</SPAN><EM=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none;">MelsecPLC.dll</EM><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>in=20
+                              			the test project. First add<SPAN =
+class=3D"Apple-converted-space">&nbsp;</SPAN><EM=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none;">MelsecPLC.dll</EM><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>to=20
+                              			your project.</P>
+                              <H4 style=3D'font: bold 16px/normal "Segoe =
+UI", Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			1. Delcare MelsecPLC.dll in form</H4>
+                              <DIV class=3D"pre-action-link" =
+id=3D"premain2" style=3D'border-width: 0px 0px 1px; font: 11px/normal =
+"Segoe UI", Arial, sans-serif; margin: 0px; padding: 0px; text-align: =
+right; color: rgb(0, 87, 130); text-transform: none; text-indent: 0px; =
+letter-spacing: normal; word-spacing: 0px; border-bottom-color: rgb(204, =
+204, 204); border-bottom-style: solid; display: block; white-space: =
+normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: =
+0px;'=20
+                              width=3D"100%"><IMG width=3D"9" =
+height=3D"9" id=3D"preimg2"=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; height: auto; overflow: =
+auto; cursor: pointer; max-width: 100%;"=20
+                              =
+src=3D"http://www.ucancode.net/images/minus.gif"=20
+                              preid=3D"2"><SPAN id=3D"precollapse2" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; cursor: pointer;"=20
+                              preid=3D"2"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>Collapse</SPAN><SPAN=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none;"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>|<SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN></SPAN><A=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: purple; =
+text-decoration: none;"=20
+                              =
+href=3D"http://www.ucancode.net/Articles/616262/PLC-Communication-Using-N=
+ET#"=20
+                              preid=3D"2">Copy 				Code</A></DIV>
+<PRE id=3D"pre2" lang=3D"cs" style=3D'font: 9pt/normal Consolas, =
+"Courier New", Courier, mono; padding: 6px; border: 1px solid rgb(255, =
+210, 252); border-image: none; color: black; text-transform: none; =
+text-indent: 0px; letter-spacing: normal; overflow: auto; margin-top: =
+0px; word-spacing: 0px; white-space: pre-wrap; -ms-word-wrap: =
+break-word; background-color: rgb(255, 210, 252); =
+-webkit-text-stroke-width: 0px;'><SPAN class=3D"code-comment" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: rgb(0, 128, 0); font-style: italic;">//=0A=
+</SPAN><SPAN class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: blue;">using</SPAN> =
+MelsecPLC;</PRE>
+                              <H4 style=3D'font: bold 16px/normal "Segoe =
+UI", Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			2. Variable Declarations</H4>
+                              <DIV class=3D"pre-action-link" =
+id=3D"premain3" style=3D'border-width: 0px 0px 1px; font: 11px/normal =
+"Segoe UI", Arial, sans-serif; margin: 0px; padding: 0px; text-align: =
+right; color: rgb(0, 87, 130); text-transform: none; text-indent: 0px; =
+letter-spacing: normal; word-spacing: 0px; border-bottom-color: rgb(204, =
+204, 204); border-bottom-style: solid; display: block; white-space: =
+normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: =
+0px;'=20
+                              width=3D"100%"><IMG width=3D"9" =
+height=3D"9" id=3D"preimg3"=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; height: auto; overflow: =
+auto; cursor: pointer; max-width: 100%;"=20
+                              =
+src=3D"http://www.ucancode.net/images/minus.gif"=20
+                              preid=3D"3"><SPAN id=3D"precollapse3" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; cursor: pointer;"=20
+                              preid=3D"3"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>Collapse</SPAN><SPAN=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none;"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>|<SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN></SPAN><A=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: purple; =
+text-decoration: none;"=20
+                              =
+href=3D"http://www.ucancode.net/Articles/616262/PLC-Communication-Using-N=
+ET#"=20
+                              preid=3D"3">Copy 				Code</A></DIV>
+<PRE id=3D"pre3" lang=3D"cs" style=3D'font: 9pt/normal Consolas, =
+"Courier New", Courier, mono; padding: 6px; border: 1px solid rgb(255, =
+210, 252); border-image: none; color: black; text-transform: none; =
+text-indent: 0px; letter-spacing: normal; overflow: auto; margin-top: =
+0px; word-spacing: 0px; white-space: pre-wrap; -ms-word-wrap: =
+break-word; background-color: rgb(255, 210, 252); =
+-webkit-text-stroke-width: 0px;'><SPAN class=3D"code-comment" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: rgb(0, 128, 0); font-style: italic;">//=0A=
+</SPAN><SPAN class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: =
+blue;">public</SPAN> MelsecPLC.Winsock winsock1; <SPAN =
+class=3D"code-comment" style=3D"margin: 0px; padding: 0px; border: 0px =
+currentColor; border-image: none; color: rgb(0, 128, 0); font-style: =
+italic;">// Declare the MelsecPLC Winsock Component=0A=
+</SPAN><SPAN class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: =
+blue;">string</SPAN> Jig01; <SPAN class=3D"code-comment" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: rgb(0, 128, 0); font-style: italic;">// To =
+store the PLC read data.</SPAN></PRE>
+                              <H4 style=3D'font: bold 16px/normal "Segoe =
+UI", Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			3. Connect (<FONT =
+color=3D"#ff0000">PLC</FONT>=20
+                              Connection)</H4>
+                              <P style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			For connection we need the <FONT =
+color=3D"#ff0000"><B>PLC</B></FONT>=20
+                              			IP address. Here my <FONT=20
+                              color=3D"#ff0000"><B>PLC</B></FONT> IP 			=
+address is=20
+                              =9310.126.224.221=94. Enter the local port =
+and remote=20
+                              port. 			Here I have used =931027=94 for =
+the local=20
+                              port and =938000=94 for Remote 			port. In =
+the form=20
+                              load, we call the PLC<CODE style=3D'font: =
+11pt/normal Consolas, "Courier New", Courier, mono; margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(153, 0, 0);'>Connect</CODE><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>function=20
+                              			and we create a MelsecPLC<SPAN =
+class=3D"Apple-converted-space">&nbsp;</SPAN><CODE=20
+                              style=3D'font: 11pt/normal Consolas, =
+"Courier New", Courier, mono; margin: 0px; padding: 0px; border: 0px =
+currentColor; border-image: none; color: rgb(153, 0, =
+0);'>DataArrival</CODE><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>event.=20
+                              			The<SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN><CODE=20
+                              style=3D'font: 11pt/normal Consolas, =
+"Courier New", Courier, mono; margin: 0px; padding: 0px; border: 0px =
+currentColor; border-image: none; color: rgb(153, 0, =
+0);'>DataArrival</CODE><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>event=20
+                              			will be triggered when PLC sends data =
+to PC=20
+                              (our computer).</P>
+                              <P style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			The detailed connect functions and =
+DataArrival=20
+                              declaration in the 			form load is listed=20
+                              below.</P>
+                              <DIV class=3D"pre-action-link" =
+id=3D"premain4" style=3D'border-width: 0px 0px 1px; font: 11px/normal =
+"Segoe UI", Arial, sans-serif; margin: 0px; padding: 0px; text-align: =
+right; color: rgb(0, 87, 130); text-transform: none; text-indent: 0px; =
+letter-spacing: normal; word-spacing: 0px; border-bottom-color: rgb(204, =
+204, 204); border-bottom-style: solid; display: block; white-space: =
+normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: =
+0px;'=20
+                              width=3D"100%"><IMG width=3D"9" =
+height=3D"9" id=3D"preimg4"=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; height: auto; overflow: =
+auto; cursor: pointer; max-width: 100%;"=20
+                              =
+src=3D"http://www.ucancode.net/images/minus.gif"=20
+                              preid=3D"4"><SPAN id=3D"precollapse4" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; cursor: pointer;"=20
+                              preid=3D"4"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>Collapse</SPAN><SPAN=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none;"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>|<SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN></SPAN><A=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: purple; =
+text-decoration: none;"=20
+                              =
+href=3D"http://www.ucancode.net/Articles/616262/PLC-Communication-Using-N=
+ET#"=20
+                              preid=3D"4">Copy 				Code</A></DIV>
+<PRE id=3D"pre4" lang=3D"cs" style=3D'font: 9pt/normal Consolas, =
+"Courier New", Courier, mono; padding: 6px; border: 1px solid rgb(255, =
+210, 252); border-image: none; color: black; text-transform: none; =
+text-indent: 0px; letter-spacing: normal; overflow: auto; margin-top: =
+0px; word-spacing: 0px; white-space: pre-wrap; -ms-word-wrap: =
+break-word; background-color: rgb(255, 210, 252); =
+-webkit-text-stroke-width: 0px;'><SPAN class=3D"code-comment" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: rgb(0, 128, 0); font-style: italic;">//=0A=
+</SPAN><SPAN class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: =
+blue;">private</SPAN> <SPAN class=3D"code-keyword" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+blue;">void</SPAN> Form1_Load(<SPAN class=3D"code-keyword" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: blue;">object</SPAN> sender, EventArgs e)=0A=
+{=0A=
+    winsock1Connect();=0A=
+    winsock1.DataArrival +=3D =0A=
+      <SPAN class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: blue;">new</SPAN> =
+MelsecPLC.Winsock.DataArrivalEventHandler(winsock1_DataArrival);=0A=
+    timer1.Enabled =3D <SPAN class=3D"code-keyword" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+blue;">true</SPAN>;=0A=
+    timer1.Start();=0A=
+}=0A=
+=0A=
+<SPAN class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; border: =
+0px currentColor; border-image: none; color: blue;">private</SPAN> <SPAN =
+class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; border: 0px =
+currentColor; border-image: none; color: blue;">void</SPAN> =
+winsock1Connect()=0A=
+{=0A=
+    <SPAN class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: blue;">try</SPAN>=0A=
+    {=0A=
+        <SPAN class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: blue;">if</SPAN> =
+(winsock1.GetState.ToString() !=3D <SPAN class=3D"code-string" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: purple;">"Connected"</SPAN>)=0A=
+        {=0A=
+=0A=
+            winsock1.LocalPort =3D <SPAN class=3D"code-digit" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: navy;">1027</SPAN>;=0A=
+=0A=
+            winsock1.RemoteIP =3D<SPAN class=3D"code-string" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: purple;">"10.126.224.221"</SPAN>;=0A=
+            <SPAN class=3D"code-keyword" style=3D"margin: 0px; padding: =
+0px; border: 0px currentColor; border-image: none; color: =
+blue;">int</SPAN> a =3D <SPAN class=3D"code-digit" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+navy;">8000</SPAN>;=0A=
+=0A=
+            winsock1.RemotePort =3D <SPAN class=3D"code-digit" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: navy;">8000</SPAN>;=0A=
+=0A=
+            winsock1.Connect();=0A=
+        }=0A=
+    }=0A=
+    <SPAN class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: blue;">catch</SPAN> =
+(Exception ex)=0A=
+    {=0A=
+    }=0A=
+}</PRE>
+                              <H4 style=3D'font: bold 16px/normal "Segoe =
+UI", Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			4. DataArrival Event</H4>
+                              <P style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			In the<SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN><CODE=20
+                              style=3D'font: 11pt/normal Consolas, =
+"Courier New", Courier, mono; margin: 0px; padding: 0px; border: 0px =
+currentColor; border-image: none; color: rgb(153, 0, =
+0);'>DataArrival</CODE><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>event=20
+                              			we get the actual data send by the =
+<FONT color=3D"#ff0000"><B>PLC</B></FONT>=20
+                              			after Read Signal is sent to <FONT =
+color=3D"#ff0000"><B>PLC</B></FONT>.=20
+                              			This event will trigger whenever <FONT =
+color=3D"#ff0000"><B>PLC</B></FONT>=20
+                              			sends data to the PC. To get data from =
+<FONT=20
+                              color=3D"#ff0000"><B>PLC</B></FONT> 			we =
+use=20
+                              the<SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN><CODE=20
+                              style=3D'font: 11pt/normal Consolas, =
+"Courier New", Courier, mono; margin: 0px; padding: 0px; border: 0px =
+currentColor; border-image: none; color: rgb(153, 0, =
+0);'>winsock1.GetData()</CODE><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>method.</P>
+                              <DIV class=3D"pre-action-link" =
+id=3D"premain5" style=3D'border-width: 0px 0px 1px; font: 11px/normal =
+"Segoe UI", Arial, sans-serif; margin: 0px; padding: 0px; text-align: =
+right; color: rgb(0, 87, 130); text-transform: none; text-indent: 0px; =
+letter-spacing: normal; word-spacing: 0px; border-bottom-color: rgb(204, =
+204, 204); border-bottom-style: solid; display: block; white-space: =
+normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: =
+0px;'=20
+                              width=3D"100%"><IMG width=3D"9" =
+height=3D"9" id=3D"preimg5"=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; height: auto; overflow: =
+auto; cursor: pointer; max-width: 100%;"=20
+                              =
+src=3D"http://www.ucancode.net/images/minus.gif"=20
+                              preid=3D"5"><SPAN id=3D"precollapse5" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; cursor: pointer;"=20
+                              preid=3D"5"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>Collapse</SPAN><SPAN=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none;"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>|<SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN></SPAN><A=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: purple; =
+text-decoration: none;"=20
+                              =
+href=3D"http://www.ucancode.net/Articles/616262/PLC-Communication-Using-N=
+ET#"=20
+                              preid=3D"5">Copy 				Code</A></DIV>
+<PRE id=3D"pre5" lang=3D"cs" style=3D'font: 9pt/normal Consolas, =
+"Courier New", Courier, mono; padding: 6px; border: 1px solid rgb(255, =
+210, 252); border-image: none; color: black; text-transform: none; =
+text-indent: 0px; letter-spacing: normal; overflow: auto; margin-top: =
+0px; word-spacing: 0px; white-space: pre-wrap; -ms-word-wrap: =
+break-word; background-color: rgb(255, 210, 252); =
+-webkit-text-stroke-width: 0px;'><SPAN class=3D"code-comment" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: rgb(0, 128, 0); font-style: italic;">//=0A=
+</SPAN><SPAN class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: =
+blue;">private</SPAN> <SPAN class=3D"code-keyword" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+blue;">void</SPAN> winsock1_DataArrival(MelsecPLC.Winsock sender, <SPAN =
+class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; border: 0px =
+currentColor; border-image: none; color: blue;">int</SPAN> BytesTotal)=0A=
+{=0A=
+    <SPAN class=3D"code-SDKkeyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: rgb(51, 153, =
+153);">String</SPAN> s =3D <SPAN class=3D"code-SDKkeyword" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: rgb(51, 153, 153);">String</SPAN>.Empty;=0A=
+    winsock1.GetData(<SPAN class=3D"code-keyword" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+blue;">ref</SPAN> s);=0A=
+    Jig01 =3D s;=0A=
+}</PRE>
+                              <H4 style=3D'font: bold 16px/normal "Segoe =
+UI", Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			5. <FONT color=3D"#ff0000">Read Data =
+from=20
+                              PLC</FONT></H4>
+                              <P style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			To <FONT color=3D"#ff0000"><B>read data =
+from=20
+                              PLC</B></FONT> we need to 			send the =
+signal to=20
+                              <FONT color=3D"#ff0000"><B>PLC</B></FONT> =
+for data=20
+                              			read. I have explained the read =
+functions in my=20
+                              article 			introduction. To send read =
+signal to=20
+                              <FONT color=3D"#ff0000"><B>PLC</B></FONT> 	=
+		here we=20
+                              use the<SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN><CODE=20
+                              style=3D'font: 11pt/normal Consolas, =
+"Courier New", Courier, mono; margin: 0px; padding: 0px; border: 0px =
+currentColor; border-image: none; color: rgb(153, 0, =
+0);'>winsock1.Send()</CODE><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>method.</P>
+                              <DIV class=3D"pre-action-link" =
+id=3D"premain6" style=3D'border-width: 0px 0px 1px; font: 11px/normal =
+"Segoe UI", Arial, sans-serif; margin: 0px; padding: 0px; text-align: =
+right; color: rgb(0, 87, 130); text-transform: none; text-indent: 0px; =
+letter-spacing: normal; word-spacing: 0px; border-bottom-color: rgb(204, =
+204, 204); border-bottom-style: solid; display: block; white-space: =
+normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: =
+0px;'=20
+                              width=3D"100%"><IMG width=3D"9" =
+height=3D"9" id=3D"preimg6"=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; height: auto; overflow: =
+auto; cursor: pointer; max-width: 100%;"=20
+                              =
+src=3D"http://www.ucancode.net/images/minus.gif"=20
+                              preid=3D"6"><SPAN id=3D"precollapse6" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; cursor: pointer;"=20
+                              preid=3D"6"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>Collapse</SPAN><SPAN=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none;"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>|<SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN></SPAN><A=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: purple; =
+text-decoration: none;"=20
+                              =
+href=3D"http://www.ucancode.net/Articles/616262/PLC-Communication-Using-N=
+ET#"=20
+                              preid=3D"6">Copy 				Code</A></DIV>
+<PRE id=3D"pre6" lang=3D"cs" style=3D'font: 9pt/normal Consolas, =
+"Courier New", Courier, mono; padding: 6px; border: 1px solid rgb(255, =
+210, 252); border-image: none; color: black; text-transform: none; =
+text-indent: 0px; letter-spacing: normal; overflow: auto; margin-top: =
+0px; word-spacing: 0px; white-space: pre-wrap; -ms-word-wrap: =
+break-word; background-color: rgb(255, 210, 252); =
+-webkit-text-stroke-width: 0px;'><SPAN class=3D"code-comment" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: rgb(0, 128, 0); font-style: italic;">//=0A=
+</SPAN><SPAN class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: =
+blue;">private</SPAN> <SPAN class=3D"code-keyword" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+blue;">void</SPAN> btnRead_Click(<SPAN class=3D"code-keyword" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: blue;">object</SPAN> sender, EventArgs e)=0A=
+{=0A=
+    <SPAN class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: blue;">if</SPAN> =
+(winsock1.GetState.ToString() !=3D <SPAN class=3D"code-string" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: purple;">"Connected"</SPAN>)=0A=
+    {=0A=
+        winsock1Connect();=0A=
+    }=0A=
+    <SPAN class=3D"code-comment" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: rgb(0, 128, 0); =
+font-style: italic;">//String cmd =3D =
+"500000FF03FF000018000A04010000D*0095000001";=0A=
+</SPAN>    <SPAN class=3D"code-SDKkeyword" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(51, 153, 153);">String</SPAN> cmd =3D <SPAN class=3D"code-string" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: purple;">""</SPAN>;=0A=
+    <SPAN class=3D"code-SDKkeyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: rgb(51, 153, =
+153);">String</SPAN> OutAddress =3D <SPAN class=3D"code-string" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: purple;">"0001"</SPAN>;=0A=
+    cmd =3D <SPAN class=3D"code-string" style=3D"margin: 0px; padding: =
+0px; border: 0px currentColor; border-image: none; color: =
+purple;">""</SPAN>;=0A=
+    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"5000"</SPAN> ;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">// sub HEAD (NOT)=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"00"</SPAN>  ;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//   network number (NOT)=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"FF"</SPAN>  ;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//PLC NUMBER=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"03FF"</SPAN>   ;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">// DEMAND OBJECT MUDULE I/O NUMBER=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"00"</SPAN>  ;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  DEMAND OBJECT MUDULE DEVICE =
+NUMBER=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"001C"</SPAN>  ;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  Length of demand data=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"000A"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  CPU inspector data=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"0401"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  Read command=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"0000"</SPAN> ;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  Sub command=0A=
+</SPAN>    cmd =3D cmd +<SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"D*"</SPAN>  ;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//   device code=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"009500"</SPAN>; <SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//adBase =0A=
+</SPAN>    cmd =3D cmd + OutAddress;  <SPAN class=3D"code-comment" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: rgb(0, 128, 0); font-style: italic;">//BASE =
+ADDRESS           =0A=
+</SPAN>    winsock1.Send(cmd);         =0A=
+}</PRE>
+                              <H4 style=3D'font: bold 16px/normal "Segoe =
+UI", Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			6. <FONT color=3D"#ff0000">Write Data =
+to=20
+                              PLC</FONT></H4>
+                              <P style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			To <FONT color=3D"#ff0000"><B>write =
+data to=20
+                              PLC</B></FONT> we need to 			send the =
+signal to=20
+                              <FONT color=3D"#ff0000"><B>PLC</B></FONT> =
+for data=20
+                              			write. I have explained the write =
+functions in=20
+                              my article 			introduction. To send a =
+write signal=20
+                              to PLC here we use the<SPAN =
+class=3D"Apple-converted-space">&nbsp;</SPAN><CODE=20
+                              style=3D'font: 11pt/normal Consolas, =
+"Courier New", Courier, mono; margin: 0px; padding: 0px; border: 0px =
+currentColor; border-image: none; color: rgb(153, 0, =
+0);'>winsock1.Send()</CODE><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>method.</P>
+                              <DIV class=3D"pre-action-link" =
+id=3D"premain7" style=3D'border-width: 0px 0px 1px; font: 11px/normal =
+"Segoe UI", Arial, sans-serif; margin: 0px; padding: 0px; text-align: =
+right; color: rgb(0, 87, 130); text-transform: none; text-indent: 0px; =
+letter-spacing: normal; word-spacing: 0px; border-bottom-color: rgb(204, =
+204, 204); border-bottom-style: solid; display: block; white-space: =
+normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: =
+0px;'=20
+                              width=3D"100%"><IMG width=3D"9" =
+height=3D"9" id=3D"preimg7"=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; height: auto; overflow: =
+auto; cursor: pointer; max-width: 100%;"=20
+                              =
+src=3D"http://www.ucancode.net/images/minus.gif"=20
+                              preid=3D"7"><SPAN id=3D"precollapse7" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; cursor: pointer;"=20
+                              preid=3D"7"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>Collapse</SPAN><SPAN=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none;"><SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN>|<SPAN=20
+                              =
+class=3D"Apple-converted-space">&nbsp;</SPAN></SPAN><A=20
+                              style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: purple; =
+text-decoration: none;"=20
+                              =
+href=3D"http://www.ucancode.net/Articles/616262/PLC-Communication-Using-N=
+ET#"=20
+                              preid=3D"7">Copy 				Code</A></DIV>
+<PRE id=3D"pre7" lang=3D"cs" style=3D'font: 9pt/normal Consolas, =
+"Courier New", Courier, mono; padding: 6px; border: 1px solid rgb(255, =
+210, 252); border-image: none; color: black; text-transform: none; =
+text-indent: 0px; letter-spacing: normal; overflow: auto; margin-top: =
+0px; word-spacing: 0px; white-space: pre-wrap; -ms-word-wrap: =
+break-word; background-color: rgb(255, 210, 252); =
+-webkit-text-stroke-width: 0px;'><SPAN class=3D"code-comment" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: rgb(0, 128, 0); font-style: italic;">//=0A=
+</SPAN><SPAN class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: =
+blue;">private</SPAN> <SPAN class=3D"code-keyword" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+blue;">void</SPAN> btnWrite_Click(<SPAN class=3D"code-keyword" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: blue;">object</SPAN> sender, EventArgs e)=0A=
+{=0A=
+    <SPAN class=3D"code-keyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: blue;">if</SPAN> =
+(winsock1.GetState.ToString() !=3D <SPAN class=3D"code-string" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: purple;">"Connected"</SPAN>)=0A=
+    {=0A=
+        winsock1Connect();=0A=
+    }      =0A=
+    <SPAN class=3D"code-SDKkeyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: rgb(51, 153, =
+153);">String</SPAN> cmd =3D <SPAN class=3D"code-string" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: purple;">""</SPAN>;=0A=
+    <SPAN class=3D"code-SDKkeyword" style=3D"margin: 0px; padding: 0px; =
+border: 0px currentColor; border-image: none; color: rgb(51, 153, =
+153);">String</SPAN> OutAddress =3D txtWrite.Text.Trim();=0A=
+    cmd =3D <SPAN class=3D"code-string" style=3D"margin: 0px; padding: =
+0px; border: 0px currentColor; border-image: none; color: =
+purple;">""</SPAN>;=0A=
+    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"5000"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">// sub HEAD (NOT)=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"00"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//   network number (NOT)=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"FF"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//PLC NUMBER=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"03FF"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">// DEMAND OBJECT MUDULE I/O NUMBER=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"00"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  DEMAND OBJECT MUDULE DEVICE =
+NUMBER=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"001C"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  Length of demand data=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"000A"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  CPU inspector data=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"1401"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  Write command=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"0000"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//  Sub command=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"D*"</SPAN>;<SPAN class=3D"code-comment" style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//   device code=0A=
+</SPAN>    cmd =3D cmd + <SPAN class=3D"code-string" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+purple;">"009501"</SPAN>; <SPAN class=3D"code-comment" style=3D"margin: =
+0px; padding: 0px; border: 0px currentColor; border-image: none; color: =
+rgb(0, 128, 0); font-style: italic;">//adBase =0A=
+</SPAN>    cmd =3D cmd + OutAddress;  <SPAN class=3D"code-comment" =
+style=3D"margin: 0px; padding: 0px; border: 0px currentColor; =
+border-image: none; color: rgb(0, 128, 0); font-style: italic;">//BASE =
+ADDRESS=0A=
+</SPAN>    winsock1.Send(cmd);=0A=
+}</PRE>
+                              <H2 style=3D'font: 200 30px/normal "Segoe =
+UI", Arial, sans-serif; margin: 20px 0px 11px; padding: 0px 0px 10px; =
+color: rgb(255, 153, 0); text-transform: none; text-indent: 0px; =
+letter-spacing: normal; word-spacing: 0px; white-space: normal; =
+background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;'>
+                              			3</H2>
+                              <P style=3D'font: 14px/normal "Segoe UI", =
+Arial, sans-serif; color: rgb(17, 17, 17); text-transform: none; =
+text-indent: 0px; letter-spacing: normal; word-spacing: 0px; =
+white-space: normal; background-color: rgb(255, 255, 255); =
+-webkit-text-stroke-width: 0px;'>
+                              			I love to work and play with the HMI =
+(Human=20
+                              Interface Program). I 			have worked with =
+several=20
+                              HMI programs using C#,&nbsp; like			 <FONT =
+color=3D"#ff0000"><B>PLC</B></FONT>,=20
+                              Sensor Programming, and 			Nutrunner tool=20
+                              communication program. I want the end =
+users who=20
+                              read 			this article to benefit from this=20
+                              program.</P><FONT face=3D"Segoe UI"=20
+                              size=3D"3"><B><FONT face=3D"Segoe UI">
+                              <P align=3D"left">News:</P></FONT>
+                              <P align=3D"left"><FONT face=3D"Segoe UI"> =
+<FONT=20
+                              color=3D"#000080">		1 <A =
+href=3D"http://www.ucancode.net/CAD_DRAW_PRINT_COMPONENT.htm">UCanCode=20
+                              Advance E-XD++		CAD Drawing and Printing=20
+                              Solution</A></FONT></FONT><FONT =
+face=3D"Segoe UI"=20
+                              size=3D"2"><FONT face=3D"Segoe UI"><A =
+href=3D"http://www.ucancode.net/CAD_DRAW_PRINT_COMPONENT.htm">=20
+                              Source Code Solution for C/C++, .NET V2017 =
+is=20
+                              released!</A></FONT></FONT>
+                              <P><FONT face=3D"Segoe UI" =
+size=3D"2"><FONT face=3D"Segoe UI"><FONT=20
+                              color=3D"#000080">		2 <A =
+href=3D"http://www.ucancode.net/Industrial-Control-Design-Simulation-Deve=
+lopment-Graphics-Visualization-VC-Source-Code.htm">
+                              UCanCode Advance E-XD++ </A></FONT><FONT =
+face=3D"Segoe UI"=20
+                              size=3D"2"> <A =
+href=3D"http://www.ucancode.net/Industrial-Control-Design-Simulation-Deve=
+lopment-Graphics-Visualization-VC-Source-Code.htm">
+                              HMI &amp; SCADA Source Code Solution for =
+C/C++,=20
+                              .NET V2017 is=20
+                              released!</A></FONT></FONT></FONT><FONT =
+face=3D"Segoe UI"></FONT></P></B></FONT>
+                              <P><FONT face=3D"Segoe UI" =
+size=3D"3"><B><FONT face=3D"Segoe UI">
+                               3 <FONT face=3D"Segoe UI" =
+size=3D"2"><FONT color=3D"#000080"=20
+                              face=3D"Segoe UI"><A =
+href=3D"http://www.ucancode.net/Gis-advanced-visualization-source-solutio=
+n.htm">UCanCode=20
+                               Advance E-XD++ GIS SVG Drawing and =
+Printing=20
+                              Solution</A></FONT><FONT face=3D"Segoe =
+UI"><A =
+href=3D"http://www.ucancode.net/Gis-advanced-visualization-source-solutio=
+n.htm">=20
+                              Source Code Solution for C/C++, .NET V2017 =
+is=20
+                              =
+released!</A></FONT></FONT></FONT></B></FONT>
+                              <P><A =
+href=3D"http://www.ucancode.net/PLC_Programming_VB.zip">PLC_Programming_V=
+B.zip</A>
+                              <P><A =
+href=3D"http://www.ucancode.net/Shanu_PLC_Csharp.Net_Sample.zip">
+                              			=
+Shanu_PLC_Csharp.Net_Sample.zip</A></P></TD></TR></TBODY></TABLE><!--=0A=
+<table cellpadding=3D"0" cellspacing=3D"0">=0A=
+<tr>=0A=
+--> <!-- begin main content column --> <!-- closign of column, row, and =
+table are in subfoot file -->=20
+<SCRIPT language=3D"javascript" type=3D"text/javascript"> =0A=
+if (screen.width=3D=3D640 || screen.width=3D=3D800)=0A=
+{=0A=
+   document.write("<link rel=3Dstylesheet =
+href=3D'/global/global800.css'>"); =0A=
+} =0A=
+else =0A=
+{ =0A=
+   document.write("<link rel=3Dstylesheet =
+href=3D'/global/global.css'>"); =0A=
+} =0A=
+</SCRIPT>
+                                                         </FONT> </TD>
+                      <TD valign=3D"TOP">
+                        <TABLE width=3D"160" height=3D"913" =
+id=3D"table46"=20
+                        bordercolor=3D"#111111" =
+style=3D"border-collapse: collapse;"=20
+                        bgcolor=3D"#ffffff" border=3D"0" =
+cellspacing=3D"0"=20
+                        cellpadding=3D"3">
+                          <TBODY>
+                          <TR bgcolor=3D"lightgrey">
+                            <TD width=3D"152" height=3D"233" =
+align=3D"left" valign=3D"top"=20
+                            bgcolor=3D"#ffffff">
+                              <TABLE width=3D"100%" id=3D"table47" =
+bgcolor=3D"#ffffff"=20
+                              border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0">
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <TABLE width=3D"150" id=3D"table48" =
+border=3D"0"=20
+                                cellspacing=3D"0" cellpadding=3D"0">
+                                <TBODY>
+                                <TR>
+                                <TD width=3D"11" height=3D"11" =
+align=3D"left" valign=3D"bottom"><FONT=20
+                                face=3D"Segoe UI" size=3D"2"><IMG =
+width=3D"11" height=3D"11"=20
+                                =
+src=3D"http://www.ucancode.net/box_grey_top_left.gif"=20
+                                border=3D"0"></FONT></TD>
+                                <TD width=3D"100%" height=3D"11"=20
+                                valign=3D"center"><FONT face=3D"Segoe =
+UI"=20
+                                size=3D"2"><IMG width=3D"100%" =
+height=3D"5" =
+src=3D"http://www.ucancode.net/box_grey_h_border.gif"></FONT></TD>
+                                <TD width=3D"11" height=3D"11" =
+align=3D"left" valign=3D"bottom"><FONT=20
+                                face=3D"Segoe UI" size=3D"2"><IMG =
+width=3D"11" height=3D"11"=20
+                                =
+src=3D"http://www.ucancode.net/box_grey_top_right.gif"=20
+                                border=3D"0"></FONT></TD></TR>
+                                <TR height=3D"100%" valign=3D"top">
+                                <TD width=3D"11"><FONT face=3D"Segoe UI" =
+
+                                size=3D"2"><IMG width=3D"11" =
+height=3D"100%" =
+src=3D"http://www.ucancode.net/box_grey_v_border.gif"></FONT></TD>
+                                <TD width=3D"122">
+                                <TABLE width=3D"100%" id=3D"table49" =
+border=3D"0"=20
+                                cellspacing=3D"0" cellpadding=3D"5">
+                                <TBODY>
+                                <TR height=3D"70">
+                                <TD height=3D"215" align=3D"center" =
+valign=3D"middle"=20
+                                bgcolor=3D"#ffffff">
+                                <H2 minmax_bound=3D"true"><FONT =
+face=3D"Segoe UI"=20
+                                size=3D"2"><B><!-- BEGIN =
+ProvideSupport.com Graphics Chat Button Code -->=20
+                                <DIV id=3D"ciIj9B" style=3D"position: =
+absolute; z-index: 100;"></DIV>
+                                <DIV id=3D"scIj9B" style=3D"display: =
+inline;"></DIV>
+                                <DIV id=3D"sdIj9B" style=3D"display: =
+none;"></DIV>
+<SCRIPT type=3D"text/javascript">var =
+seIj9B=3Ddocument.createElement("script");seIj9B.type=3D"text/javascript"=
+;var =
+seIj9Bs=3D(location.protocol.indexOf("https")=3D=3D0?"https":"http")+"://=
+image.providesupport.com/js/ucancode/safe-standard.js?ps_h=3DIj9B&ps_t=3D=
+"+new =
+Date().getTime();setTimeout("seIj9B.src=3DseIj9Bs;document.getElementById=
+('sdIj9B').appendChild(seIj9B)",1)</SCRIPT>
+                                <NOSCRIPT>&lt;div=20
+                                style=3D"display:inline"&gt;&lt;a=20
+                                =
+href=3D"http://www.providesupport.com?messenger=3Ducancode"&gt;Live=20
+                                Help =
+Chat&lt;/a&gt;&lt;/div&gt;</NOSCRIPT> <!-- END ProvideSupport.com =
+Graphics Chat Button Code --></B>
+                                																				 </FONT>
+                                <P><FONT face=3D"Segoe UI" =
+size=3D"2"><B><SPAN=20
+                                style=3D"font-weight: 400;">A<FONT=20
+                                color=3D"#000000">sk any questions by=20
+                                MSN:</FONT></SPAN></B><FONT =
+color=3D"#ff0000">    =20
+                                                          <A =
+href=3D"mailto:ucancode@hotmail.com"><FONT=20
+                                color=3D"#000080">u<SPAN=20
+                                style=3D"font-weight: =
+400;">cancode@hotmail.com</SPAN></FONT></A><SPAN=20
+                                style=3D"font-weight: 400;"> </SPAN> =
+</FONT><SPAN=20
+                                style=3D"font-weight: =
+400;"><B>Yahoo</B>:<FONT=20
+                                color=3D"#ff0000"><A =
+href=3D"mailto:ucan_code@yahoo.com"><FONT=20
+                                =
+color=3D"#000080">ucan_code@yahoo.com</FONT></A></FONT></SPAN></FONT></P>=
+</H2></TD></TR></TBODY></TABLE></TD>
+                                <TD width=3D"11"><FONT face=3D"Segoe UI" =
+
+                                size=3D"2"><IMG width=3D"11" =
+height=3D"100%" =
+src=3D"http://www.ucancode.net/box_grey_v_border.gif"></FONT></TD></TR>
+                                <TR>
+                                <TD width=3D"11" height=3D"11" =
+align=3D"left" valign=3D"top"><FONT=20
+                                face=3D"Segoe UI" size=3D"2"><IMG =
+width=3D"11" height=3D"11"=20
+                                =
+src=3D"http://www.ucancode.net/box_grey_bottom_left.gif"=20
+                                border=3D"0"></FONT></TD>
+                                <TD width=3D"100%" height=3D"11"=20
+                                align=3D"middle"><FONT face=3D"Segoe UI" =
+
+                                size=3D"2"><IMG width=3D"100%" =
+height=3D"5" =
+src=3D"http://www.ucancode.net/box_grey_h_border.gif"></FONT></TD>
+                                <TD width=3D"11" height=3D"11" =
+align=3D"left" valign=3D"top"><FONT=20
+                                face=3D"Segoe UI" size=3D"2"><IMG =
+width=3D"11" height=3D"11"=20
+                                =
+src=3D"http://www.ucancode.net/box_grey_bottom_right.gif"=20
+                                =
+border=3D"0"></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><=
+/TD></TR></TBODY></TABLE><FONT=20
+                        face=3D"Segoe UI" size=3D"2"><BR></FONT>=20
+                  </TD></TR></TBODY></TABLE></CENTER></DIV><FONT=20
+face=3D"Segoe UI"><!--end body text-->								 </FONT>
+                								 =
+</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD><FONT size=3D"1">			&nbsp;
+      <P align=3D"center"><FONT face=3D"Segoe UI" size=3D"1">Copyright =
+?1998-2011=20
+      UCanCode.Net Software  , all rights reserved.<BR>			Other product =
+and=20
+      company names herein may be the trademarks of their respective=20
+      owners.<BR><BR>			Please direct your questions or comments to <A =
+href=3D"mailto:webmaster@ucancode.net">webmaster@ucancode.net</A></FONT><=
+/P></FONT>
+      			=20
+      <P>&nbsp;</P></TD></TR></TBODY></TABLE></BODY></HTML>
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/ucancode24.gif
+
+R0lGODlhJgE7APcAAAAAAP////b29wgidQositja4AApkwAnjgAkggAhdQAYUxMoWufp7gAmfAAi
+cAAeZQEcVwMqfQUfVwk1kw0vfgwkWSA2Z4WVuJyqyKOx0LXC3rC4ygAeXQIvjAMuhgQ0lgModgMm
+bgQykgQocgcxiAcwhQk4mgctfQUhWQk3mAk2kwk1kQgwgQkzjAkyiQYjXwo4lgo2kwcnaQs4lQo1
+jggqcAclYws3kQoyhQksdgs0igghVQ43ixRBnhE3hw0qZgwnXxQ+kxM0ekFfnUJVfGJ9tHqHoqa2
+1664zay2yqavws/X587S2t/i6PHz9+/x9ers8PX2+Ojp67C+2Kq0x6exxKSsu9vf5tTX3PL1+fv8
+/f3z7P9gAPVhB/pmDPxoDutiDuNeDvRqF/dxIOxtIN9sJslqMO+APbBiM/SPUsF1R69zTu2nfMmP
+a5NpT/S1joNuYfdiCcZeINSHWe+aZ6Z+aNeqkfXMtLWqpfbTxJ6If/nt6LF5ZPLe18ibjaudmtvC
+v/Kzr8WhoPUAAO8AAOoAAOgAAOUAANUAAM4AAMUAAL0AALIAAKwAAKEAAJwAAJUAAI4AAIkAANwB
+AYYBAfIICIgFBeMKCt0NDewQD8kXF98hIfIkJM8lJeg6Oss4OKAuLuRQUKQ7O7ZGRsFXV45ISOqF
+hcJ6evSdnbuGhn5fX9S2tvz39+3o6P76+vLv7/Ty8v79/dnY2NPS0v7+/v39/fv7+/n5+fj4+PX1
+9fLy8vDw8O7u7uzs7Orq6unp6ebm5uPj4+Hh4d7e3t3d3dra2tbW1tTU1NDQ0M7OzszMzMrKysXF
+xcLCwr+/v7u7u7m5uba2trGxsa6urqqqqqioqKWlpaKiop+fn5ubm5mZmZKSko+Pj4uLi4iIiISE
+hH19fXp6end3d3Nzc3BwcGtra2ZmZmJiYlxcXFdXV1VVVVBQUExMTElJSUREREJCQj09PTs7Ozc3
+NzMzMzAwMCsrKyYmJiIiIiEhIRsbGxcXFxQUFBEREQsLCwYGBv///yH5BAEAAP8ALAAAAAAmATsA
+AAj/AAMIHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuX
+MGPKnEmzps2bOHPq3Mmzp8+fQCUKwEW0qNGjRIcGXcq06UErFnZInUq1qlQFRAo43crVpxUFEsJK
+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
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/curve.gif
+
+R0lGODlhEgAUALMAAMDAwIaGhnl5eXR0dG9vb2tra1NTU0ZGRkFBQTMzMyoqKhMTEwkJCQUFBQAA
+AAAAACH5BAEAAAAALAAAAAASABQAQAQ4EACSnL0Yy807ul0YGiLXZE5ZHqm4oKC6ZXI3WHXY5mqg
+wJpSAZhj0HKCIO+0WzZ5z5yCxxlQOREAOw==
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/title.gif
+
+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
+ADs=
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/new_ucc.gif
+
+R0lGODlhjACWAPcAAAAAAP////4BAvxERfxGR/7v8Pv7/dfd7fj5/AArmgAwnCRPqylTrTVbrwAz
+ngAznQI1nwM2nwQ2nwU3oAY4oAg6oQo7ogs8ogw9og8/oxdFphlHpx5LqCtVri9asDVdsTphsztj
+tD1ktEltuU9yu1V3vlt8wF1+wXqVy42l06S33MHN5sPP58TQ5/T2+vn6/Jiu16S328vX7MzX68/Z
+7PH0+fv8/fj///7///+Pi/3n5v8AAP4AAP0AAP0FBf0LC/8QEP0QEP8REfwVFP8gIP0kJPwtLf8w
+MP8zM/0zM/w5OP9AQP9ERP1MTP9VVf1XV/9mZv1pafxvbv53dv93d/x8e/9/f/6Bgf+IiP6IiP2N
+jf2Skv6Zmf+fn/6envugn/6mpv+qqv6srPyzs/+7u/67u/+/v/7Av//Gxv/MzP/S0f3W1v/d3f/f
+3/3h4f7p6f/u7v/v7/7v7/7y8v719f76+kFAQH59fXx7e19eXv79/fj39/f29vTz8/Lx8fHw8PDv
+7+7t7evq6urp6eno6Ojn5+fm5trZ2dDPz8rJybCvr6yrq42MjIyLi4aFhYKBgYGAgP7+/v39/fv7
++/r6+vn5+fX19e/v7+7u7uzs7OXl5eLi4t/f393d3dvb29nZ2djY2NXV1dLS0s/Pz83NzczMzMbG
+xsHBwb+/v76+vry8vLu7u7q6urm5uba2trOzs7Gxsa+vr6ysrKqqqqmpqaenp6SkpKKiop+fn56e
+npubm5mZmZaWlpKSko+Pj46OjoqKioiIiIeHh4ODg4KCgn9/f319fXp6end3d3R0dHFxcXBwcG5u
+bmpqamZmZmRkZGFhYWBgYF1dXVhYWFZWVlVVVVFRUVBQUE5OTkpKSkdHR0RERENDQ0BAQD4+Pjw8
+PDo6OjQ0NDMzMzAwMC0tLSkpKSUlJSIiIiAgIB8fHxwcHBkZGRUVFRMTExERERAQEA8PDw0NDQoK
+CgcHBwUFBQMDAwEBAf///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAPcALAAAAACMAJYA
+AAj/AD8JHEiwoMGDCBMqXMiwocOHEAsGmEixosWLGDNq3Mixo8ePIENOFCiypMmTKFOiJKmypcuX
+MDuyjEmzps2SM2/q3MkzQM6eQIOq/Cm0qFGPRI8qXUoxKdOnRZ1CncpTKtWrNa1i3epSK9evJ72C
+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
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/down_sm.gif
+
+R0lGODlhDwAPAMQAAAAAAP////z8/Pr6+vn5+fPz8/Ly8vDw8Ofn5+Xl5eTk5NHR0c/Pz83NzcHB
+wZCQkGBgYFNTU1BQUExMTEpKSj8/PzExMS0tLSoqKhsbGxkZGRgYGA8PDwwMDP///wAAACH5BAEA
+AB4ALAAAAAAPAA8AAAVVoCeOZGmeKJRlECpWjqI4lRsExh2ckXA/gERAICFJGLoA5UIINCIjziFg
+qVo0gMCBE51ar9lCZ3RMTjADJ3TU+wEWw6Lplru5Ig4EgubyQDYbLX0uIQA7
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/p_sm.gif
+
+R0lGODlhDgAMALMAAAAAAP///8jIyK2trZ+fn5KSkpGRkYSEhHp6end3d2lpaU5OTjMzM////wAA
+AAAAACH5BAEAAA0ALAAAAAAOAAwAAAQtsMlJKzs1S8a7t0aDYQhTJYuoFiklMMPYKEm2LDJTZIPH
+CZmLhkLw6YLI4TACADs=
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/arrow_show.gif
+
+R0lGODlhEQAOAJEAAAAAAAD/AP/MAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/i2pMjAwMSBDb2Rl
+am9jayBTb2Z0d2FyZSwgQWxsIFJpZ2h0cyBSZXNlcnZlZC4AIfkEAQoAAQAsAAAAABEADgAAAiiM
+j6nL7QJjXALYe4WqGOtUSRHwIZxolQdHQtnmeXD3gnRt3iklTkcBADs=
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/arrow_hide.gif
+
+R0lGODlhEQAOAJEAAAAAAAD/AP/MAAAAACH5BAEKAAEALAAAAAARAA4AAAIojI+py+0CY1wC2HuF
+qoBjnXAQ1m1W9JkdeqpsG54ejIhkGd90LUlIAQA7
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/icon-1.gif
+
+R0lGODlhBwAFAIAAACBap////yH5BAAAAAAALAAAAAAHAAUAAAIJjAOnCd2o4DIFADs=
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/ucancodenet-badge.gif
+
+R0lGODlhjABNAPcAAP//////AP8A//8AAAD//wD/AAAA/wAAALna+anW//oCA/kCBPwDBvwwMfxB
+QvxHSfxYWfx6e/yLjPyfoPu1tv6/wPzQ0fXt8LS41AAol/f4+wEtmgozmwAxngAwnAY2ngY1nEZp
+tV59wMzW7Oru9+7x+AAzngAznQAymwA0mgAymQE2nQE1nAI1nQM3nAQ4nQo8ngs8og4/phNCoiJO
+qi1ZrjZfsGSDxGSDwnCMxYyk1JGo1aC03MbS6c7Y7NPc7tzj8QI4nxlJpJSs2Ku83Orv+LrL6MLQ
+6N/m8lqGyUyByMzc8t/p9k+FyVGGyFSJyXel3Hun3X2p3dPi9PH1+liMyGmYzXGf0Hul1pK44lqN
+w1uOwF+Rw4yy2ZzE7aPH619vf9Ll+d7t/OLv/Obx/Oz1/vP5//X6//T5/vj7/vr8/v3+//z9/qrW
+/6zY/6zX/67Y/7DZ/7Ha/7La/7Tb/7bc/7nd/7zf/77g/7vb+cHh/73c+cPi/7/d+cbk/8He+cLf
++cnl/8Xg+cji+s7o/8rj+s3k+szj+dPq/9Dm+8/l+dbr/9Hm+dPo+9Ln+tjs/9Tn+drt/9fq+9zu
+/9rs/Nnr+97v/+Dw/+Lx/+Ty/+Hv/ODu++bz/+Pw/Oj0/+Xx/Or1/+z2/+r0/enz/O73/+rz+6vY
+/7vc+ZCpv8vn/9Dp/9Hq/9Tr/8/m+Wl0fdnu/9ru/9Xp+trs+9/w/93u/N3t++Ly/9/u++f0/+Pw
+++by/Ov2//D4//D3/fL4/eXy/O/4/+32/ez1/O72/Pb7/9TY2/j8//b6/c7d5+n0/M/W2/P6//r9
+//D4/ff8//T5/PT6/f7///X29f//6P//7f//9vn58f+cl/4AAPwAAPsAAPkAAPwCAfsCAfoBAf0C
+AvkDAvoFBf0HB/sJCf8QEPwgIP9AQPtQUP1lZf2trf3l5f/v7//39/77+//+/u/v79/f38/Pz7+/
+v6+vr5+fn4+Pj4CAgH9/f3BwcGBgYFBQUEBAQDAwMCAgIBAQEP///yH5BAEAAP8ALAAAAACMAE0A
+QAj/AK0JtCbtCxYnTRIqXMiwiZOHEJ9o2UJRS5WLGDNq3Piko8cnFLc8gdiwpMmFEykibKKkpcuX
+MGEylGhRihdqOKlNm6al0J6fe/oIHdrnj9E/gAAJEjSokKFEjWJVqqXpky5RZnxdSKcOgNevXm94
+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
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/images/minus.gif
+
+R0lGODlhCQAJAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD/
+/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBm
+AABmMwBmZgBmmQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/
+MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNm
+ZjNmmTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/
+mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZm
+zGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb/
+/5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZ
+AJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwA
+M8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZ
+ZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8A
+mf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+Z
+zP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP///yH5BAEAABAALAAAAAAJAAkA
+AAgrAP/4GSiQoJ9/CBP+G6gwoR8qDRFS+fMPhUWL/wRGXHgw4sONEwf6KTgyIAA7
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/box_grey_top_left.gif
+
+R0lGODlhCwALAPcAAP///7Kysvj4+N3d3eTk5MrKyt7e3rm5ubq6uvX19ePj439/f39/f39/f39/
+f39/fwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAALAAsA
+AAgnAAEIHEiwoMGDCBMqPEgAQYAABgsEGJDAoIIAAhAeMJAQY8eMAwMCADs=
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/box_grey_h_border.gif
+
+R0lGODlhBQALAPcAAP///7KysgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAsA
+AAgSAAEIHEiwoEGCARImPMiwIYCAADs=
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/box_grey_top_right.gif
+
+R0lGODlhCwALAPcAAP///7Kyst7e3rq6uuPj48rKyvX19bm5ud3d3fj4+OTk5H9/f39/f39/f39/
+f39/fwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAALAAsA
+AAgjAAEIHEiwoMGDCBMqDBBggAKEBhAEKJAwQQACCQUcWMiRYEAAOw==
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/box_grey_v_border.gif
+
+R0lGODlhCwAFAPcAAP///7KysgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAALAAUA
+AAgVAAEIFBhgoMGBBQ8aTKiQYEOEBwMCADs=
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/box_grey_bottom_left.gif
+
+R0lGODlhCwALAPcAAP///7Kysvj4+N3d3eTk5MrKyt7e3rm5ubq6uvX19ePj439/f39/f39/f39/
+f39/fwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAALAAsA
+AAgpAAEIFBhAwMCDBA0iHHjAwMKBCgo+FFggwIAEEwkgCBBgosePIEMiDAgAOw==
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ucancode.net/box_grey_bottom_right.gif
+
+R0lGODlhCwALAPcAAP///7Kysvj4+N3d3eTk5MrKyt7e3rm5ubq6uvX19ePj439/f39/f39/f39/
+f39/fwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAALAAsA
+AAgpAAEIBCAgwMCDAgsiPGjgwMKEARQsTDAgQIGFAQIgIPCwo8ePIEMiDAgAOw==
+
+------=_NextPart_000_0000_01D2E83C.EFDCC330--
