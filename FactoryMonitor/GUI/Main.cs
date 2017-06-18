@@ -7,43 +7,40 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using FactoryMonitor.PLC;
 
-namespace FactoryMonitor
-{   /// <summary>
+
+namespace FactoryMonitor.GUI
+{/// <summary>
 /// 
 /// </summary>
-    public partial class Form1 : Form
-    {
-
-        private cPLC[] PLC = new cPLC[1];
-        /// <summary>
-        /// 
-        /// </summary>
-        public Form1()
+    public partial class Main : Form
+    {/// <summary>
+     /// 
+     /// </summary>
+        public Main()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private FxPLC[] PLC = new FxPLC[1];
+        private void Main_Load(object sender, EventArgs e)
         {
 
+
+            for (int i = 0; i <= PLC.Length; i++)
+            {
+                PLC[0] = new FxPLC();
+            }
         }
 
         private void connectToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
             try
             {
-                if (cPLC.GetState.ToString() != "Connected")
+                foreach (FxPLC elementPLC in PLC)
                 {
-
-                    winsock1Connect();
-
-                }
-                if (winsock1.GetState.ToString() != "Connected")
-                {
-                    MessageBox.Show("Not Connected");
-                    return;
+                    elementPLC.Connect();
                 }
             }
             catch (Exception ex)
@@ -54,9 +51,23 @@ namespace FactoryMonitor
 
         }
 
-        private void winsock1_HandleError(MelsecPLC.Winsock sender, string Description, string Method, string myEx)
+        private void disconnectToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            try
+            {
+                foreach (FxPLC elementPLC in PLC)
+                {
+                    elementPLC.Disconnect();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                throw ex;
+            }
 
         }
     }
+    
+
 }

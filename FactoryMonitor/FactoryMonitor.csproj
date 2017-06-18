@@ -37,6 +37,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>FactoryMonitor.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="MelsecPLC">
       <HintPath>..\packages\MelsecPLC\MelsecPLC.dll</HintPath>
@@ -58,13 +61,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PLC\cPLC.cs" />
     <Compile Include="GUI\Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="PLC\FxPLC.cs" />
     <Compile Include="PLC\FX.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

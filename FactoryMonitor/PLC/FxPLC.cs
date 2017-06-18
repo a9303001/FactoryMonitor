@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FactoryMonitor
+namespace FactoryMonitor.PLC
 {
-    class cPLC
+    class FxPLC
     {
         private MelsecPLC.Winsock winsock1 = new Winsock();
         public Boolean Connect()
@@ -77,44 +77,4 @@ namespace FactoryMonitor
         }
 
     }
-}
-
-namespace FactoryMonitor
-{
-
-
-    class cPLC1
-    {
-        private MelsecPLC.Winsock winsock1 = new Winsock();
-
-
-        public void winsock1Connect()
-        {
-            try
-            {
-                if (winsock1.GetState.ToString() != "Connected")
-                {
-
-                    winsock1.LocalPort = 1027;
-
-                    winsock1.RemoteIP = "192.168.0.2";
-
-                    winsock1.RemotePort = 8000;
-
-                    winsock1.Connect();
-                }
-
-            }
-            catch (Exception ex)                
-            {
-                MessageBox.Show(ex.Message);
-                throw ex;
-            }
-        }
-
-
-    }
-
-
-
 }
