@@ -4,6 +4,9 @@
         <name>FactoryMonitor</name>
     </assembly>
     <members>
+        <member name="M:FactoryMonitor.GUI.MainOper.Load(System.Windows.Forms.FlowLayoutPanel@)">
+            
+        </member>
         <member name="T:FactoryMonitor.GUI.Main">
             <summary>
             

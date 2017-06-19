@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.pLCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.connectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.disconnectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +58,7 @@
             this.connectToolStripMenuItem,
             this.disconnectToolStripMenuItem});
             this.pLCToolStripMenuItem.Name = "pLCToolStripMenuItem";
-            this.pLCToolStripMenuItem.Size = new System.Drawing.Size(45, 24);
+            this.pLCToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
             this.pLCToolStripMenuItem.Text = "PLC";
             // 
             // connectToolStripMenuItem
@@ -92,6 +94,10 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "PLC1";
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -120,5 +126,6 @@
         private System.Windows.Forms.ToolStripMenuItem disconnectToolStripMenuItem;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer timer1;
     }
 }

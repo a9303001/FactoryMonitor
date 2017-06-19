@@ -76,5 +76,14 @@ namespace FactoryMonitor.PLC
             winsock1.Send(cmd);
         }
 
+        
+        private string Jig01;
+        private void winsock1_DataArrival(Winsock sender, int BytesTotal)
+        {
+            String s = String.Empty;
+            winsock1.GetData(ref s);
+            Jig01 = s;
+        }
+
     }
 }
